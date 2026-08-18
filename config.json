@@ -1,0 +1,188 @@
+{
+  "_comment": "Editable cost inputs and parameters. In Phase 3 this is the file the Action reads (mirrored from the shared Sheet). Every cost line carries a provenance kind: 'ad' = measured from Triple Whale, plan figure here is budget only; 'retainer' = monthly, accrued into weeks; 'variable' = lumpy, set per week.",
+  "accrual": {
+    "method": "x12_over_52",
+    "note": "monthly x 12/52. Reproduces Clayton's reported $276 for wk of Aug 3. Alternatives: calendar_days (7/30.44), divide_4 (/4.0)."
+  },
+  "cost_lines": [
+    {
+      "id": "meta_core",
+      "name": "Meta \u2014 proven core",
+      "kind": "ad",
+      "monthly": 72000,
+      "tw_metric": "fb_ads_spend",
+      "effective_from": null,
+      "effective_to": null
+    },
+    {
+      "id": "meta_test",
+      "name": "Meta \u2014 testing",
+      "kind": "ad",
+      "monthly": 0,
+      "tw_metric": null,
+      "effective_from": null,
+      "effective_to": null
+    },
+    {
+      "id": "google",
+      "name": "Google \u2014 brand + PMax + non-brand",
+      "kind": "ad",
+      "monthly": 14000,
+      "tw_metric": "ga_adCost",
+      "effective_from": null,
+      "effective_to": null
+    },
+    {
+      "id": "impact",
+      "name": "Impact (affiliate platform)",
+      "kind": "ad",
+      "monthly": 0,
+      "tw_metric": "impactSpend",
+      "effective_from": null,
+      "effective_to": null
+    },
+    {
+      "id": "liquid_lemon",
+      "name": "Liquid Lemon / BLCKHAT",
+      "kind": "retainer",
+      "monthly": 15000,
+      "effective_from": null,
+      "effective_to": null
+    },
+    {
+      "id": "jt_pr",
+      "name": "Jack Taylor \u2014 PR",
+      "kind": "retainer",
+      "monthly": 15000,
+      "effective_from": null,
+      "effective_to": null
+    },
+    {
+      "id": "jt_affiliate",
+      "name": "Jack Taylor \u2014 Affiliate",
+      "kind": "retainer",
+      "monthly": 5000,
+      "effective_from": null,
+      "effective_to": null
+    },
+    {
+      "id": "toast",
+      "name": "Toast",
+      "kind": "retainer",
+      "monthly": 10000,
+      "effective_from": null,
+      "effective_to": null
+    },
+    {
+      "id": "airops",
+      "name": "AirOps \u2014 SEO / AIO",
+      "kind": "retainer",
+      "monthly": 9750,
+      "effective_from": null,
+      "effective_to": null
+    },
+    {
+      "id": "ugc",
+      "name": "UGC / creator content (Toast)",
+      "kind": "retainer",
+      "monthly": 0,
+      "effective_from": null,
+      "effective_to": null
+    },
+    {
+      "id": "experiments",
+      "name": "Expensive experiments (podcasts, influencers)",
+      "kind": "variable",
+      "monthly": 10000,
+      "effective_from": null,
+      "effective_to": null
+    }
+  ],
+  "refund_bases": {
+    "default": "planning",
+    "options": {
+      "target": {
+        "label": "Target",
+        "rate": 10.0,
+        "provenance": "assumed"
+      },
+      "planning": {
+        "label": "Planning",
+        "rate": 20.0,
+        "provenance": "assumed"
+      },
+      "bad": {
+        "label": "Bad scenario",
+        "rate": 30.0,
+        "provenance": "assumed"
+      },
+      "measured": {
+        "label": "Measured",
+        "rate": null,
+        "provenance": "measured",
+        "note": "computed from 2026 cohort maturation"
+      }
+    }
+  },
+  "ltv_assumptions": {
+    "consumables_per_month": 19,
+    "active_months": 12,
+    "attach_rate_pct": 70,
+    "repeat_hardware": 0,
+    "_provenance": "assumed",
+    "_warning": "Every input invented. Never present as measurement."
+  },
+  "historical_cac_constants": {
+    "_comment": "DECISION 2026-08-18: sheet denominators frozen as historical constants; Shopify used going forward. Discontinuity is intentional and must be labeled.",
+    "basis": "2026 Marketing Budget spreadsheet",
+    "months": [
+      {
+        "month": "2026-01",
+        "spend": 53846,
+        "new_customers": 107,
+        "cac": 503.23
+      },
+      {
+        "month": "2026-02",
+        "spend": 114255,
+        "new_customers": 616,
+        "cac": 185.48
+      },
+      {
+        "month": "2026-03",
+        "spend": 196475,
+        "new_customers": 389,
+        "cac": 505.08
+      },
+      {
+        "month": "2026-04",
+        "spend": 139989,
+        "new_customers": 306,
+        "cac": 457.48
+      },
+      {
+        "month": "2026-05",
+        "spend": 153561,
+        "new_customers": 650,
+        "cac": 236.25
+      }
+    ],
+    "adjusted": {
+      "month": "2026-05",
+      "exclude": 4000,
+      "reason": "non-acquisition vendors (data analytics tools)",
+      "cac": 230.09
+    }
+  },
+  "notes_to_resolve": [
+    "Superfiliate ($599/mo), Impact platform fee ($20/mo) and social media platform ($200/mo) appear in the 2026 Budget sheet but not in the current spend table. $819/mo unaccounted.",
+    "No TikTok spend as of 2026-08-18 (confirmed by Caitlin). Toast-TikTok retainer folded into the single $10,000 Toast line."
+  ],
+  "cost_table_effective_from": "2026-07-01",
+  "_cost_table_effective_from_note": "The date this cost table took effect. NEEDS CONFIRMATION from Caitlin. Cost lines change over time \u2014 the earlier budget-sheet structure totalled $67,069/mo of retainers with Toast split across four lines, versus $54,750 now. Weeks before this date are computed on a cost basis that was not actually in force, so their CAC is approximate and the dashboard says so. Per-line effective_from/effective_to is the proper fix; the schema honours those fields if present.",
+  "cogs": {
+    "_comment": "Out of scope this iteration by decision. Room reserved so contribution-margin/CAC is an addition, not a migration.",
+    "per_unit": null,
+    "provenance": "assumed"
+  }
+}

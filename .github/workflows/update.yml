@@ -1,0 +1,80 @@
+name: Update marketing efficiency
+
+on:
+  schedule:
+    - cron: '0 9 * * *'      # daily 09:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+
+      # Optional: authenticate to Google for sheet access.
+      # Only needed if COST_SOURCE=sheet and the sheet is private.
+      # Skip this step if using the committed config.json (default).
+      - name: Authenticate to Google Cloud
+        if: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON != '' }}
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+
+      - name: Run pipeline
+        env:
+          TRIPLEWHALE_API_KEY: ${{ secrets.TRIPLEWHALE_API_KEY }}
+          SHOPIFY_DOMAIN:      ${{ secrets.SHOPIFY_DOMAIN }}
+          SHOPIFY_TOKEN:       ${{ secrets.SHOPIFY_TOKEN }}
+          # Cost source: "config" (default, committed config.json) or "sheet" (Google Sheet)
+          COST_SOURCE:         ${{ secrets.COST_SOURCE || 'config' }}
+          # If COST_SOURCE=sheet, provide the sheet ID
+          SHEET_ID:            ${{ secrets.SHEET_ID }}
+          SHEET_TAB:           "Cost inputs"
+          REFRESH_ORDERS: "1"
+          WEEKS: "12"
+          PYTHONUNBUFFERED: "1"
+        run: python3 pipeline.py
+
+      - name: Regression tests
+        run: python3 test_cac.py
+
+      - name: Commit versioned data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ config.json
+          git diff --cached --quiet || git commit -m "Data pull $(date -u +%Y-%m-%d)"
+          git push || echo "nothing to push"
+
+      - name: Stage site
+        if: always()
+        run: |
+          mkdir -p _site && cp index.html _site/ && cp app.js _site/ && cp -r data _site/ 2>/dev/null || true
+      - uses: actions/upload-pages-artifact@v3
+        if: always()
+        with: { path: _site }
+
+  deploy:
+    needs: build
+    if: always()
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

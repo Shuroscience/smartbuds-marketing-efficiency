@@ -1,0 +1,50 @@
+{
+  "final_rate_pct": 23.41,
+  "cohorts": 17,
+  "gross": 418868.85,
+  "range": [
+    "2026-01-05",
+    "2026-04-27"
+  ],
+  "cum_pct_of_gross": [
+    0.546,
+    0.882,
+    2.104,
+    5.001,
+    9.054,
+    12.941,
+    15.844,
+    18.627,
+    20.928,
+    21.614,
+    22.339,
+    22.68,
+    22.854,
+    22.89,
+    23.178,
+    23.264,
+    23.325
+  ],
+  "pct_of_eventual_visible": [
+    2.3,
+    3.8,
+    9.0,
+    21.4,
+    38.7,
+    55.3,
+    67.7,
+    79.6,
+    89.4,
+    92.3,
+    95.4,
+    96.9,
+    97.6,
+    97.8,
+    99.0,
+    99.4,
+    99.6
+  ],
+  "maturity_weeks": 16,
+  "provenance": "measured",
+  "method": "Refunds matched to their order's acquisition week; 17 cohorts aged >=16w from 2026-01-01 onward."
+}

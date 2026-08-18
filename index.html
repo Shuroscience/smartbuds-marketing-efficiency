@@ -1,0 +1,414 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marketing Efficiency</title>
+<style>
+  :root{
+    color-scheme: light;
+    --ink:#1F2A2E; --ink-2:#4C5C60; --ink-3:#83918F;
+    --paper:#F6F5F2; --card:#FFFDFA; --card-2:#FBF9F5;
+    --rule:#E6E3DC; --rule-2:#F0EDE7;
+    --measured:#0E9182; --measured-bg:#E6F2F0;
+    --accrued:#4A3AA7;  --accrued-bg:#EBE9F7;
+    --assumed:#B4761A;  --assumed-bg:#F8EFDF;
+    --alert:#A8452F; --alert-bg:#FAECE8; --good:#0E9182;
+    --shadow:0 1px 2px rgba(31,42,46,.04), 0 4px 14px rgba(31,42,46,.05);
+    --shadow-lg:0 2px 4px rgba(31,42,46,.05), 0 10px 30px rgba(31,42,46,.07);
+    --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+    --sans:system-ui,-apple-system,'Segoe UI',sans-serif;
+    --r:14px; --r-sm:8px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --ink:#ECEFEE; --ink-2:#B4BEBC; --ink-3:#7C8A88;
+      --paper:#15191A; --card:#1D2325; --card-2:#222829;
+      --rule:#333A3B; --rule-2:#272D2E;
+      --measured:#19A897; --measured-bg:#123430;
+      --accrued:#9085E9;  --accrued-bg:#242149;
+      --assumed:#C98500;  --assumed-bg:#33260A;
+      --alert:#E4735A; --alert-bg:#361D18;
+      --shadow:0 1px 2px rgba(0,0,0,.3), 0 4px 14px rgba(0,0,0,.25);
+      --shadow-lg:0 2px 4px rgba(0,0,0,.35), 0 10px 30px rgba(0,0,0,.3);
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --ink:#ECEFEE; --ink-2:#B4BEBC; --ink-3:#7C8A88;
+    --paper:#15191A; --card:#1D2325; --card-2:#222829;
+    --rule:#333A3B; --rule-2:#272D2E;
+    --measured:#19A897; --measured-bg:#123430;
+    --accrued:#9085E9;  --accrued-bg:#242149;
+    --assumed:#C98500;  --assumed-bg:#33260A;
+    --alert:#E4735A; --alert-bg:#361D18;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 4px 14px rgba(0,0,0,.25);
+    --shadow-lg:0 2px 4px rgba(0,0,0,.35), 0 10px 30px rgba(0,0,0,.3);
+  }
+  *{box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);
+    font-size:15px;line-height:1.55;margin:0;padding:0 0 80px;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  .mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+  h1{font-size:29px;font-weight:650;letter-spacing:-.02em;margin:4px 0 0;line-height:1.15}
+  .eyebrow{font-family:var(--mono);font-size:10.5px;font-weight:500;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--ink-3)}
+
+  /* ---------- masthead ---------- */
+  .mast{padding:32px 0 20px;display:flex;flex-wrap:wrap;gap:20px;
+    align-items:flex-end;justify-content:space-between}
+  .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end}
+  .field{display:flex;flex-direction:column;gap:6px}
+  .field>label{font-family:var(--mono);font-size:9.5px;font-weight:500;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--ink-3);padding-left:2px}
+  select,input,button{font-family:var(--sans);font-size:13.5px;color:var(--ink);
+    background:var(--card);border:1px solid var(--rule);border-radius:var(--r-sm);
+    padding:9px 11px;transition:border-color .14s, background .14s, box-shadow .14s}
+  select,input{box-shadow:0 1px 1px rgba(31,42,46,.03)}
+  select:hover,input:hover{border-color:var(--ink-3)}
+  select:focus-visible,input:focus-visible,button:focus-visible{
+    outline:none;border-color:var(--measured);box-shadow:0 0 0 3px var(--measured-bg)}
+  button{cursor:pointer;font-weight:500}
+  button:hover{border-color:var(--ink-3);background:var(--card-2)}
+
+  /* segmented control */
+  .seg-ctl{display:inline-flex;background:var(--card-2);border:1px solid var(--rule);
+    border-radius:var(--r-sm);padding:3px;gap:2px}
+  .seg-ctl button{border:none;background:transparent;box-shadow:none;padding:6px 14px;
+    border-radius:6px;font-size:13px;color:var(--ink-2)}
+  .seg-ctl button[aria-pressed="true"]{background:var(--card);color:var(--ink);
+    font-weight:600;box-shadow:0 1px 2px rgba(31,42,46,.08)}
+
+  /* toggle switch */
+  .sw-wrap{display:inline-flex;align-items:center;gap:11px;cursor:pointer;user-select:none}
+  .sw{position:relative;width:44px;height:25px;background:var(--rule);border-radius:13px;
+    transition:background .18s;flex:none}
+  .sw::after{content:"";position:absolute;top:3px;left:3px;width:19px;height:19px;
+    background:#fff;border-radius:50%;transition:transform .18s;
+    box-shadow:0 1px 3px rgba(0,0,0,.2)}
+  .sw-wrap[aria-pressed="true"] .sw{background:var(--measured)}
+  .sw-wrap[aria-pressed="true"] .sw::after{transform:translateX(19px)}
+  .sw-lab{font-size:13.5px;color:var(--ink-2)}
+  .sw-wrap[aria-pressed="true"] .sw-lab{color:var(--ink);font-weight:500}
+
+  /* ---------- sticky context bar ---------- */
+  .sticky{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--paper) 88%,transparent);
+    backdrop-filter:blur(10px);border-bottom:1px solid var(--rule);
+    margin:0 -24px 0;padding:10px 24px;display:none;align-items:center;gap:18px;flex-wrap:wrap}
+  .sticky.on{display:flex}
+  .sticky .sk-lab{font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--ink-3)}
+  .sticky b{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+  /* ---------- health ---------- */
+  .health{display:flex;gap:16px;flex-wrap:wrap;align-items:center;padding:11px 16px;
+    border-radius:var(--r-sm);background:var(--card);box-shadow:var(--shadow);
+    margin-bottom:20px;font-size:12.5px;color:var(--ink-2)}
+  .health.stale{background:var(--alert-bg)}
+  .health b{color:var(--ink)}
+  .pill{display:inline-flex;align-items:center;gap:6px}
+  .led{width:7px;height:7px;border-radius:50%;background:var(--good);flex:none}
+  .led.bad{background:var(--alert)}
+
+  /* ---------- provenance key ---------- */
+  .key{display:flex;gap:20px;flex-wrap:wrap;margin:0 0 22px;font-size:12px;color:var(--ink-3)}
+  .key span{display:inline-flex;align-items:center;gap:7px}
+  .dot{width:9px;height:9px;border-radius:50%;flex:none}
+  .dot.m{background:var(--measured)} .dot.c{background:var(--accrued)} .dot.a{background:var(--assumed)}
+
+  /* ---------- cards ---------- */
+  .card{background:var(--card);border-radius:var(--r);box-shadow:var(--shadow);padding:24px}
+  .sec{margin-bottom:26px}
+  .sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:14px;flex-wrap:wrap}
+  .sec-head h2{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.12em;
+    text-transform:uppercase;margin:0;color:var(--ink-2)}
+  .sec-head p{margin:0;font-size:12.5px;color:var(--ink-3)}
+
+  /* ---------- primary hero ---------- */
+  .hero-main{background:var(--card);border-radius:var(--r);box-shadow:var(--shadow-lg);
+    padding:28px 30px 24px;margin-bottom:22px}
+  .hero-top{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:flex-start}
+  .hero-title{font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+    font-family:var(--mono);color:var(--ink-2)}
+  .hero-q{font-size:14px;color:var(--ink-3);margin-top:5px;max-width:47ch;line-height:1.5}
+  .big{font-family:var(--mono);font-weight:650;font-size:96px;letter-spacing:-.05em;
+    line-height:.95;margin:14px 0 0;font-variant-numeric:tabular-nums}
+  @media(max-width:620px){.big{font-size:66px}}
+  .big.under{color:var(--alert)} .big.over{color:var(--good)}
+  .big small{font-size:32px;font-weight:500;letter-spacing:0;margin-left:3px}
+  .deltas{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;font-size:12.5px;color:var(--ink-3)}
+  .deltas b{font-family:var(--mono);font-variant-numeric:tabular-nums}
+  .up{color:var(--good)} .down{color:var(--alert)}
+  .hero-verdict{font-size:14.5px;color:var(--ink-2);margin-top:16px;max-width:64ch;line-height:1.55}
+
+  /* refund ledger inside the hero */
+  .ledger{background:var(--card-2);border-radius:var(--r-sm);padding:16px 18px;min-width:270px}
+  .led-row{display:flex;justify-content:space-between;gap:18px;padding:5px 0;font-size:13.5px}
+  .led-row .v{font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:550}
+  .led-row.tax{color:var(--alert)}
+  .led-row.tot{border-top:1px solid var(--rule);margin-top:7px;padding-top:9px;font-weight:600}
+  .led-note{font-size:11.5px;color:var(--ink-3);margin-top:9px;line-height:1.45}
+
+  /* meter */
+  .meter{margin-top:20px}
+  .track{position:relative;height:12px;background:var(--rule-2);border-radius:6px}
+  .fill{position:absolute;left:0;top:0;bottom:0;background:var(--good);border-radius:6px;opacity:.5}
+  .fill.under{background:var(--alert)}
+  .thresh{position:absolute;top:-5px;bottom:-5px;width:2px;background:var(--ink-2);border-radius:1px}
+  .marker{position:absolute;top:-6px;bottom:-6px;width:4px;background:var(--ink);border-radius:2px}
+  .ghost{position:absolute;top:-3px;bottom:-3px;width:0;border-left:2px dashed var(--ink-3);opacity:.65}
+  .scale{display:flex;justify-content:space-between;margin-top:7px;font-family:var(--mono);
+    font-size:10px;color:var(--ink-3)}
+
+  /* ---------- secondary metrics row ---------- */
+  .row2{display:grid;grid-template-columns:1.15fr 1fr;gap:20px;margin-bottom:26px}
+  @media(max-width:860px){.row2{grid-template-columns:1fr}}
+  .term-lab{font-family:var(--mono);font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--ink-3);display:block;margin-bottom:3px}
+  .term-val{font-family:var(--mono);font-size:19px;font-weight:600;letter-spacing:-.02em;
+    font-variant-numeric:tabular-nums}
+  .term-note{font-size:11.5px;color:var(--ink-3);margin-top:2px}
+  .terms{display:flex;gap:26px;flex-wrap:wrap;margin-top:16px}
+  .v-m{color:var(--measured)} .v-c{color:var(--accrued)} .v-a{color:var(--assumed)}
+
+  /* ---------- what changed ---------- */
+  .chg{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--rule);
+    border-radius:var(--r-sm);overflow:hidden}
+  @media(max-width:760px){.chg{grid-template-columns:repeat(2,1fr)}}
+  .chg-cell{background:var(--card);padding:14px 16px}
+  .chg-lab{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--ink-3)}
+  .chg-val{font-family:var(--mono);font-size:20px;font-weight:600;margin-top:4px;
+    font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+  .chg-d{font-size:12px;margin-top:3px;font-family:var(--mono)}
+
+  /* ---------- build bar ---------- */
+  .build{display:flex;height:34px;gap:2px;margin-bottom:12px}
+  .bseg{position:relative;font-family:var(--mono);font-size:11px;color:#fff;display:flex;
+    align-items:center;justify-content:center;font-weight:600}
+  .bseg:first-child{border-radius:7px 0 0 7px} .bseg:last-child{border-radius:0 7px 7px 0}
+  .blegend{display:flex;gap:20px;flex-wrap:wrap;font-size:12.5px;color:var(--ink-2)}
+  .blegend span{display:inline-flex;align-items:center;gap:7px}
+  .sw2{width:10px;height:10px;border-radius:3px;flex:none}
+
+  /* ---------- tables ---------- */
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th{font-family:var(--mono);font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--ink-3);text-align:left;font-weight:500;padding:0 10px 10px}
+  th.r,td.r{text-align:right}
+  td{padding:5px 10px;border-top:1px solid var(--rule-2)}
+  tbody tr:hover{background:var(--card-2)}
+  tfoot td{font-family:var(--mono);font-weight:650;border-top:1.5px solid var(--rule);padding-top:12px}
+  td input{width:100%;padding:7px 9px;border:1px solid transparent;background:transparent;
+    box-shadow:none;border-radius:6px;font-size:13.5px}
+  td input.amt{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+  td input:hover{border-color:var(--rule);background:var(--card-2)}
+  td input:focus{border-color:var(--measured);background:var(--card);
+    box-shadow:0 0 0 3px var(--measured-bg)}
+  td input.nm{text-align:left}
+  td input.nm[readonly]{color:var(--ink);cursor:default}
+  td input.nm[readonly]:hover{border-color:transparent;background:transparent}
+  td select.kd{font-size:12.5px;padding:5px 7px;border-color:transparent;background:transparent;
+    width:100%;box-shadow:none}
+  td select.kd:hover{border-color:var(--rule);background:var(--card-2)}
+  button.del{border-color:transparent;color:var(--ink-3);font-size:17px;line-height:1;
+    padding:3px 9px;background:transparent;box-shadow:none;border-radius:6px}
+  button.del:hover{color:var(--alert);background:var(--alert-bg);border-color:transparent}
+  #costs th:nth-child(1),#costs td:nth-child(1){width:40%}
+  #costs th:nth-child(2),#costs td:nth-child(2){width:19%}
+  #costs th:nth-child(3),#costs td:nth-child(3){width:16%}
+  #costs th:nth-child(4),#costs td:nth-child(4){width:19%}
+  #costs th:nth-child(5),#costs td:nth-child(5){width:6%}
+  .tag{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;
+    padding:3px 7px;border-radius:5px;font-weight:600}
+  .tag.m{background:var(--measured-bg);color:var(--measured)}
+  .tag.c{background:var(--accrued-bg);color:var(--accrued)}
+  .tag.a{background:var(--assumed-bg);color:var(--assumed)}
+
+  .note{font-size:12.5px;color:var(--ink-3);margin-top:14px;line-height:1.6}
+  .callout{border-radius:var(--r-sm);background:var(--assumed-bg);padding:13px 16px;
+    font-size:13px;color:var(--ink-2);margin-top:16px;line-height:1.55}
+  .callout b{color:var(--ink)}
+  .callout.info{background:var(--card-2)}
+  .callout.bad{background:var(--alert-bg)}
+  .scroll{overflow-x:auto}
+  .impact{font-family:var(--mono);font-size:13px;color:var(--ink-2);padding:9px 14px;
+    background:var(--measured-bg);border-radius:var(--r-sm);display:none}
+  .impact.on{display:inline-block}
+  .impact b{color:var(--ink)}
+  #saveCfg.dirty{border-color:var(--assumed);color:var(--assumed);font-weight:650;
+    background:var(--assumed-bg)}
+  .tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--paper);
+    font-family:var(--mono);font-size:11.5px;padding:7px 10px;border-radius:6px;opacity:0;
+    transition:opacity .12s;z-index:60;white-space:nowrap;box-shadow:var(--shadow-lg)}
+  @media print{
+    :root{--paper:#fff;--card:#fff}
+    .sticky,.controls,button{display:none!important}
+    .card,.hero-main{box-shadow:none;border:1px solid #ddd}
+  }
+</style>
+
+<div class="sticky" id="sticky">
+  <span><span class="sk-lab">Period</span> <b id="skPeriod">—</b></span>
+  <span><span class="sk-lab">ASP/CAC</span> <b id="skAsp">—</b></span>
+  <span><span class="sk-lab">CAC</span> <b id="skCac">—</b></span>
+  <span><span class="sk-lab">Refunds</span> <b id="skRef">—</b></span>
+</div>
+
+<div class="wrap">
+  <div class="mast">
+    <div>
+      <div class="eyebrow">NextSense · Weekly Business Review</div>
+      <h1>Marketing Efficiency</h1>
+    </div>
+    <div class="controls">
+      <div class="field"><label>View by</label>
+        <div class="seg-ctl" id="periodType">
+          <button data-k="week" aria-pressed="true">Weeks</button>
+          <button data-k="month" aria-pressed="false">Months</button>
+        </div>
+      </div>
+      <div class="field"><label for="period">Period</label><select id="period"></select></div>
+      <div class="field"><label for="basis">Refund rate</label><select id="basis"></select></div>
+      <div class="field"><label for="accrual">Accrual</label><select id="accrual">
+        <option value="x12_over_52">monthly × 12/52</option>
+        <option value="calendar_days">calendar days (7/30.44)</option>
+        <option value="divide_4">divide by 4.0</option>
+      </select></div>
+      <div class="field"><label>&nbsp;</label><button id="theme">Theme</button></div>
+    </div>
+  </div>
+
+  <div class="health" id="health"></div>
+
+  <!-- ============ PRIMARY HERO: ASP/CAC ============ -->
+  <div class="hero-main">
+    <div class="hero-top">
+      <div style="flex:1;min-width:290px">
+        <div class="hero-title">ASP / CAC · <span id="heroPeriod">—</span></div>
+        <div class="hero-q">Does the first order pay for the customer who placed it?
+          Measured on both sides, per new customer — no lag, no modelling.</div>
+        <div class="big mono" id="bigRatio">—</div>
+        <div class="deltas" id="bigDeltas"></div>
+      </div>
+      <div class="ledger" id="ledger"></div>
+    </div>
+    <div class="hero-verdict" id="bigVerdict"></div>
+    <div class="meter">
+      <div class="track"><div class="fill" id="hFill"></div><div class="ghost" id="hGhost"></div>
+        <div class="thresh" id="hThresh"></div><div class="marker" id="hMark"></div></div>
+      <div class="scale"><span>0</span><span>1.0× — the first order pays for itself</span><span>2.0×</span></div>
+    </div>
+  </div>
+
+  <!-- ============ TREND ============ -->
+  <div class="sec">
+    <div class="sec-head"><h2>ASP / CAC over time</h2><p id="trendSub"></p></div>
+    <div class="card">
+      <svg id="trend" viewBox="0 0 900 300" style="width:100%;height:auto;overflow:visible"
+           role="img" aria-labelledby="trendCap"></svg>
+      <div class="blegend" id="trendLegend" style="margin-top:14px"></div>
+      <div class="note" id="trendCap"></div>
+    </div>
+  </div>
+
+  <!-- ============ WHAT CHANGED ============ -->
+  <div class="sec">
+    <div class="sec-head"><h2>What changed</h2><p id="chgSub"></p></div>
+    <div class="chg" id="chg"></div>
+  </div>
+
+  <!-- ============ CAC BUILD + LTV ============ -->
+  <div class="row2">
+    <div>
+      <div class="sec-head"><h2>What CAC is made of</h2><p id="cacHead"></p></div>
+      <div class="card">
+        <div class="build" id="build"></div>
+        <div class="blegend" id="buildLeg"></div>
+        <div id="cacWarn"></div><div id="costBasis"></div>
+      </div>
+    </div>
+    <div>
+      <div class="sec-head"><h2>LTV / CAC</h2><p>Modelled, not measured</p></div>
+      <div class="card">
+        <div class="big mono" id="ltvRatio" style="font-size:52px;margin-top:0">—</div>
+        <div class="meter">
+          <div class="track"><div class="fill" id="lFill"></div>
+            <div id="lHatch" style="position:absolute;top:0;bottom:0;border-radius:6px"></div>
+            <div class="thresh" id="lThresh"></div><div class="ghost" id="lGhost3"></div>
+            <div class="marker" id="lMark"></div></div>
+          <div class="scale"><span>0</span><span>1.0×</span><span>3.0×</span><span>4.0×</span></div>
+        </div>
+        <div class="terms">
+          <div><span class="term-lab">Modelled LTV</span>
+            <span class="term-val v-a" id="ltvVal">—</span>
+            <div class="term-note" id="ltvNote"></div></div>
+        </div>
+        <div class="callout" id="ltvWarn"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ COST INPUTS ============ -->
+  <div class="sec">
+    <div class="sec-head"><h2>Cost inputs</h2>
+      <p>Editable — the half no analytics tool sees. Add, change or remove lines, then Save.</p></div>
+    <div class="card scroll">
+      <table id="costs"><thead><tr><th>Line item</th><th>Basis</th>
+        <th class="r">Monthly</th><th class="r" id="thPeriod">This period</th><th></th></tr></thead>
+        <tbody></tbody><tfoot></tfoot></table>
+      <div class="controls" style="margin-top:18px;align-items:center">
+        <button id="addLine">+ Add line item</button>
+        <button id="saveCfg">Save changes</button>
+        <button id="revert">Revert</button>
+        <span class="impact" id="impact"></span>
+        <span id="saveState" class="mono" style="font-size:12px;color:var(--ink-3)"></span>
+      </div>
+      <div class="note" id="costNote"></div>
+    </div>
+  </div>
+
+  <!-- ============ REFUND MATURITY ============ -->
+  <div class="sec">
+    <div class="sec-head"><h2>Refund maturity</h2>
+      <p>How much of this period's refunds have actually arrived yet</p></div>
+    <div class="card">
+      <svg id="curve" viewBox="0 0 860 250" style="width:100%;height:auto;overflow:visible"
+           role="img" aria-labelledby="curveCap"></svg>
+      <div class="note" id="curveCap"></div>
+    </div>
+  </div>
+
+  <!-- ============ LTV ASSUMPTIONS ============ -->
+  <div class="sec">
+    <div class="sec-head"><h2>LTV assumptions</h2>
+      <p>Invented inputs. Replaceable by cohort actuals without a rewrite.</p></div>
+    <div class="card">
+      <div class="controls">
+        <div class="field"><label for="consum">Consumables $/mo</label><input id="consum" type="number" step="1"></div>
+        <div class="field"><label for="months">Active months</label><input id="months" type="number" step="1"></div>
+        <div class="field"><label for="attach">Attach rate %</label><input id="attach" type="number" step="1"></div>
+        <div class="field"><label for="repeat">Repeat hardware $</label><input id="repeat" type="number" step="1"></div>
+      </div>
+      <div class="callout" id="ltvMath"></div>
+    </div>
+  </div>
+
+  <!-- ============ HISTORY ============ -->
+  <div class="sec">
+    <div class="sec-head"><h2>Historical CAC — frozen basis</h2>
+      <p>Budget-sheet denominators, kept as constants</p></div>
+    <div class="card scroll">
+      <table id="hist"><thead><tr><th>Month</th><th class="r">Total spend</th>
+        <th class="r">New customers (sheet)</th><th class="r">CAC</th>
+        <th class="r">New customers (Shopify)</th><th class="r">CAC on Shopify basis</th></tr></thead>
+        <tbody></tbody></table>
+      <div class="callout" id="discont"></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-head"><h2>Editing &amp; sharing</h2><p>Read this before trusting an edited number</p></div>
+    <div class="card"><div id="shareState"></div></div>
+  </div>
+</div>
+<div class="tip" id="tip"></div>
+<script src="app.js"></script>

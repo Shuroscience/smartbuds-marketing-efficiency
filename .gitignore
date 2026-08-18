@@ -1,0 +1,27 @@
+# Credentials
+*.env
+credentials*
+GOOGLE_SERVICE_ACCOUNT_JSON
+~/.google
+
+# Cache
+.cache_tw/
+.cache_orders.json
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local development
+.venv
+venv/
+node_modules/
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
