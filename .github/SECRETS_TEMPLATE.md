@@ -1,6 +1,6 @@
 # GitHub Secrets Setup
 
-Add these secrets to **Settings > Secrets and variables > Actions**:
+Add these 4 secrets to **Settings > Secrets and variables > Actions**:
 
 ## Required
 
@@ -9,33 +9,19 @@ Add these secrets to **Settings > Secrets and variables > Actions**:
 | `TRIPLEWHALE_API_KEY` | Triple Whale read-only API key | `6204fd44-1e66-...` |
 | `SHOPIFY_DOMAIN` | Shopify store domain | `tone-earbuds.myshopify.com` |
 | `SHOPIFY_TOKEN` | Shopify Admin API access token | `shpat_...` |
+| `SHEET_ID` | Google Sheet ID (from your public cost sheet) | `1z_TnFP78xP-xmYa8...` |
 
-## For Google Sheet cost source
-
-If you want the pipeline to read costs from a Google Sheet (recommended):
-
-| Name | Description |
-|------|-------------|
-| `SHEET_ID` | Google Sheet ID (from URL: `https://docs.google.com/spreadsheets/d/SHEET_ID/...`) |
-| `GOOGLE_SERVICE_ACCOUNT_JSON` | Full service account JSON file contents (download from Google Cloud Console) |
-
-Then set `COST_SOURCE` secret to `sheet`.
-
-## Optional
-
-| Name | Default | Values |
-|------|---------|--------|
-| `COST_SOURCE` | `config` | `sheet` (Google Sheet) or `config` (committed config.json) |
+That's it. No service account needed — the sheet is public.
 
 ---
 
-## Quick setup
+## How to get each secret
 
 ### Triple Whale
 1. Log in to Triple Whale
-2. Settings → API Keys (or Team Settings)
-3. Create a read-only API key
-4. Copy the key to `TRIPLEWHALE_API_KEY` secret
+2. Settings → API Keys
+3. Create or copy your read-only API key
+4. Copy to `TRIPLEWHALE_API_KEY` secret
 
 ### Shopify
 1. Go to Admin → Settings → Apps and integrations → Develop apps
@@ -46,22 +32,11 @@ Then set `COST_SOURCE` secret to `sheet`.
    - `read_customers`
 4. Install the app
 5. Admin API access tokens → copy token to `SHOPIFY_TOKEN` secret
-6. Get your store domain (e.g., `tone-earbuds.myshopify.com`) and add to `SHOPIFY_DOMAIN`
+6. Get your store domain (e.g., `tone-earbuds.myshopify.com`) → add to `SHOPIFY_DOMAIN`
 
-### Google Service Account (for Sheet access)
-
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. Create a new project (or select existing)
-3. APIs & Services → Enable APIs:
-   - Google Sheets API
-   - Google Drive API
-4. Create credentials → Service Account
-   - Give it a name (e.g., "marketing-dashboard")
-   - Grant no roles (it only needs to read the sheet)
-5. Keys → Create new JSON key
-6. Download the JSON file
-7. Open the file and copy its **entire contents**
-8. In GitHub Secrets, create `GOOGLE_SERVICE_ACCOUNT_JSON` and paste the full JSON
-9. Go back to Google Cloud Console, find the service account email (looks like `marketing-dashboard@....iam.gserviceaccount.com`)
-10. Share your Google Sheet with that email address (Editor access)
+### Google Sheet ID
+1. Open your cost sheet
+2. Look at the URL: `https://docs.google.com/spreadsheets/d/SHEET_ID/edit`
+3. Copy the `SHEET_ID` part
+4. Add to `SHEET_ID` secret
 
