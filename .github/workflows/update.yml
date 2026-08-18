@@ -25,23 +25,13 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
 
-      # Optional: authenticate to Google for sheet access.
-      # Only needed if COST_SOURCE=sheet and the sheet is private.
-      # Skip this step if using the committed config.json (default).
-      - name: Authenticate to Google Cloud
-        if: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON != '' }}
-        uses: google-github-actions/auth@v2
-        with:
-          credentials_json: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-
       - name: Run pipeline
         env:
           TRIPLEWHALE_API_KEY: ${{ secrets.TRIPLEWHALE_API_KEY }}
           SHOPIFY_DOMAIN:      ${{ secrets.SHOPIFY_DOMAIN }}
           SHOPIFY_TOKEN:       ${{ secrets.SHOPIFY_TOKEN }}
-          # Cost source: "config" (default, committed config.json) or "sheet" (Google Sheet)
-          COST_SOURCE:         ${{ secrets.COST_SOURCE || 'config' }}
-          # If COST_SOURCE=sheet, provide the sheet ID
+          # Cost source: read from public Google Sheet
+          COST_SOURCE:         sheet
           SHEET_ID:            ${{ secrets.SHEET_ID }}
           SHEET_TAB:           "Cost inputs"
           REFRESH_ORDERS: "1"
