@@ -208,7 +208,7 @@ def load_cost_lines_from_config():
     return CFG["cost_lines"]
 
 def load_cost_lines_from_sheet():
-    """Read cost lines from a Google Sheet.
+    """Read cost lines from a Google Sheet (public or private).
     
     Env vars required:
       SHEET_ID    - Google Sheet ID (visible in the URL after /d/)
@@ -218,31 +218,32 @@ def load_cost_lines_from_sheet():
       | id | name | kind | monthly | tw_metric |
       (headers in row 1, data from row 2 onward)
     
-    For local development with a service account, set:
-      GOOGLE_APPLICATION_CREDENTIALS - path to service account JSON
-    
-    For GitHub Actions, use the official google-github-actions/auth@v2 to supply
-    credentials via the runner environment (GOOGLE_APPLICATION_CREDENTIALS will be
-    set automatically).
+    For a PUBLIC sheet: no authentication needed, just set SHEET_ID
+    For a PRIVATE sheet: set GOOGLE_APPLICATION_CREDENTIALS to service account JSON path
     """
-    try:
-        import gspread
-    except ImportError:
-        raise ImportError("gspread required for COST_SOURCE=sheet; pip install gspread")
-    
     sheet_id=os.environ.get("SHEET_ID")
     sheet_tab=os.environ.get("SHEET_TAB","Cost inputs")
     if not sheet_id:
         raise ValueError("SHEET_ID env var required for COST_SOURCE=sheet")
     
     try:
-        auth=gspread.service_account()
-    except FileNotFoundError:
-        raise FileNotFoundError("GOOGLE_APPLICATION_CREDENTIALS file not found; "
-            "for local dev set it to a service account JSON; "
-            "for Actions use google-github-actions/auth@v2")
+        import gspread
+    except ImportError:
+        raise ImportError("gspread required for COST_SOURCE=sheet; pip install gspread")
     
-    sh=auth.open_by_key(sheet_id)
+    # Try service account first (for private sheets)
+    auth=None
+    try:
+        auth=gspread.service_account()
+    except:
+        pass
+    
+    if auth:
+        sh=auth.open_by_key(sheet_id)
+    else:
+        # Fall back to public sheet access (no auth)
+        sh=gspread.open_by_key(sheet_id)
+    
     ws=sh.worksheet(sheet_tab)
     rows=ws.get_all_records(empty2zero=False)
     
