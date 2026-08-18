@@ -1,4 +1,10 @@
-# Marketing Efficiency
+# Marketing Efficiency Dashboard
+
+**Live:** https://shuroscience.github.io/smartbuds-marketing-efficiency/ (updates daily at 09:00 UTC)
+
+**Cost inputs:** Clayton edits a shared Google Sheet; the pipeline reads it daily and publishes metrics.
+
+
 
 Hero metrics **ASP/CAC** and **LTV/CAC** for the Weekly Business Review.
 
