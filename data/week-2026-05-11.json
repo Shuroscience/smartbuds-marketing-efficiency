@@ -3,7 +3,7 @@
   "start": "2026-05-11",
   "end": "2026-05-17",
   "label": "May 11\u201317",
-  "age_weeks": 13,
+  "age_weeks": 14,
   "measured": {
     "gross_bookings": 36264.22,
     "units": 185,
@@ -37,7 +37,7 @@
   "refund_actual": {
     "booked_pct": 21.93,
     "is_mature": false,
-    "pct_of_eventual_visible": 97.8,
+    "pct_of_eventual_visible": 98.8,
     "provenance": "incomplete"
   },
   "refund_bases_available": {
@@ -58,7 +58,7 @@
     },
     "measured": {
       "label": "Measured",
-      "rate_pct": 23.41,
+      "rate_pct": 23.38,
       "provenance": "measured"
     }
   },

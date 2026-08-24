@@ -3,7 +3,7 @@
   "start": "2026-07-06",
   "end": "2026-07-12",
   "label": "Jul 6\u201312",
-  "age_weeks": 5,
+  "age_weeks": 6,
   "measured": {
     "gross_bookings": 37035.57,
     "units": 198,
@@ -15,7 +15,7 @@
       "google": 3118.29,
       "impact": 417.02
     },
-    "refunds_booked": 6322.09
+    "refunds_booked": 8130.51
   },
   "accrued": {
     "retainers": 12634.62,
@@ -35,9 +35,9 @@
   "total_spend": 34987.76,
   "asp_gross": 216.58,
   "refund_actual": {
-    "booked_pct": 17.07,
+    "booked_pct": 21.95,
     "is_mature": false,
-    "pct_of_eventual_visible": 55.3,
+    "pct_of_eventual_visible": 67.2,
     "provenance": "incomplete"
   },
   "refund_bases_available": {
@@ -58,7 +58,7 @@
     },
     "measured": {
       "label": "Measured",
-      "rate_pct": 23.41,
+      "rate_pct": 23.38,
       "provenance": "measured"
     }
   },

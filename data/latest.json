@@ -3,83 +3,10 @@
     "week": [
       {
         "period_type": "week",
-        "start": "2026-01-19",
-        "end": "2026-01-25",
-        "label": "Jan 19\u201325",
-        "age_weeks": 29,
-        "measured": {
-          "gross_bookings": 11185.4,
-          "units": 124,
-          "orders": 50,
-          "new_customers": 46,
-          "ad_spend": 1949.8,
-          "ad_spend_by_line": {
-            "meta_core": 1622.22,
-            "google": 327.58,
-            "impact": 0.0
-          },
-          "refunds_booked": 1046.13
-        },
-        "accrued": {
-          "retainers": 12634.62,
-          "variable": 2307.69,
-          "method": "x12_over_52"
-        },
-        "assumed": {
-          "ltv_consumables_total": 159.6,
-          "consumables_per_month": 19,
-          "active_months": 12,
-          "attach_rate_pct": 70,
-          "repeat_hardware": 0,
-          "_provenance": "assumed",
-          "_warning": "Every input invented. Never present as measurement."
-        },
-        "cac": 367.22,
-        "total_spend": 16892.11,
-        "asp_gross": 243.16,
-        "refund_actual": {
-          "booked_pct": 9.35,
-          "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
-          "provenance": "measured"
-        },
-        "refund_bases_available": {
-          "target": {
-            "label": "Target",
-            "rate_pct": 10.0,
-            "provenance": "assumed"
-          },
-          "planning": {
-            "label": "Planning",
-            "rate_pct": 20.0,
-            "provenance": "assumed"
-          },
-          "bad": {
-            "label": "Bad scenario",
-            "rate_pct": 30.0,
-            "provenance": "assumed"
-          },
-          "measured": {
-            "label": "Measured",
-            "rate_pct": 23.41,
-            "provenance": "measured"
-          }
-        },
-        "triple_whale_cross_check": {
-          "blendedAds": 1949.8,
-          "custom_spend_suspected": false,
-          "unrecognised_blended_delta": 0.0,
-          "tw_new_customer_orders": 46,
-          "tw_ncpa_do_not_use": 42.386924905257054,
-          "tw_in_week_refund_ratio_artifact": 12.75216909592065
-        }
-      },
-      {
-        "period_type": "week",
         "start": "2026-01-26",
         "end": "2026-02-01",
         "label": "Jan 26\u2013Feb 1",
-        "age_weeks": 28,
+        "age_weeks": 29,
         "measured": {
           "gross_bookings": 6873.11,
           "units": 172,
@@ -113,7 +40,7 @@
         "refund_actual": {
           "booked_pct": 35.07,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -134,7 +61,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -152,7 +79,7 @@
         "start": "2026-02-02",
         "end": "2026-02-08",
         "label": "Feb 2\u20138",
-        "age_weeks": 27,
+        "age_weeks": 28,
         "measured": {
           "gross_bookings": 5718.87,
           "units": 202,
@@ -186,7 +113,7 @@
         "refund_actual": {
           "booked_pct": 30.07,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -207,7 +134,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -225,7 +152,7 @@
         "start": "2026-02-09",
         "end": "2026-02-15",
         "label": "Feb 9\u201315",
-        "age_weeks": 26,
+        "age_weeks": 27,
         "measured": {
           "gross_bookings": 94226.53,
           "units": 799,
@@ -259,7 +186,7 @@
         "refund_actual": {
           "booked_pct": 24.18,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -280,7 +207,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -298,7 +225,7 @@
         "start": "2026-02-16",
         "end": "2026-02-22",
         "label": "Feb 16\u201322",
-        "age_weeks": 25,
+        "age_weeks": 26,
         "measured": {
           "gross_bookings": 40128.11,
           "units": 389,
@@ -332,7 +259,7 @@
         "refund_actual": {
           "booked_pct": 24.34,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -353,7 +280,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -371,7 +298,7 @@
         "start": "2026-02-23",
         "end": "2026-03-01",
         "label": "Feb 23\u2013Mar 1",
-        "age_weeks": 24,
+        "age_weeks": 25,
         "measured": {
           "gross_bookings": 35369.01,
           "units": 350,
@@ -405,7 +332,7 @@
         "refund_actual": {
           "booked_pct": 22.39,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -426,7 +353,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -444,7 +371,7 @@
         "start": "2026-03-02",
         "end": "2026-03-08",
         "label": "Mar 2\u20138",
-        "age_weeks": 23,
+        "age_weeks": 24,
         "measured": {
           "gross_bookings": 34677.79,
           "units": 400,
@@ -478,7 +405,7 @@
         "refund_actual": {
           "booked_pct": 19.81,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -499,7 +426,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -517,7 +444,7 @@
         "start": "2026-03-09",
         "end": "2026-03-15",
         "label": "Mar 9\u201315",
-        "age_weeks": 22,
+        "age_weeks": 23,
         "measured": {
           "gross_bookings": 26433.62,
           "units": 730,
@@ -551,7 +478,7 @@
         "refund_actual": {
           "booked_pct": 28.16,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -572,7 +499,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -590,7 +517,7 @@
         "start": "2026-03-16",
         "end": "2026-03-22",
         "label": "Mar 16\u201322",
-        "age_weeks": 21,
+        "age_weeks": 22,
         "measured": {
           "gross_bookings": 22197.27,
           "units": 358,
@@ -624,7 +551,7 @@
         "refund_actual": {
           "booked_pct": 14.58,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -645,7 +572,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -663,7 +590,7 @@
         "start": "2026-03-23",
         "end": "2026-03-29",
         "label": "Mar 23\u201329",
-        "age_weeks": 20,
+        "age_weeks": 21,
         "measured": {
           "gross_bookings": 19459.12,
           "units": 263,
@@ -697,7 +624,7 @@
         "refund_actual": {
           "booked_pct": 28.14,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -718,7 +645,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -736,7 +663,7 @@
         "start": "2026-03-30",
         "end": "2026-04-05",
         "label": "Mar 30\u2013Apr 5",
-        "age_weeks": 19,
+        "age_weeks": 20,
         "measured": {
           "gross_bookings": 21191.94,
           "units": 323,
@@ -770,7 +697,7 @@
         "refund_actual": {
           "booked_pct": 25.88,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -791,7 +718,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -809,7 +736,7 @@
         "start": "2026-04-06",
         "end": "2026-04-12",
         "label": "Apr 6\u201312",
-        "age_weeks": 18,
+        "age_weeks": 19,
         "measured": {
           "gross_bookings": 21187.8,
           "units": 573,
@@ -843,7 +770,7 @@
         "refund_actual": {
           "booked_pct": 24.6,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -864,7 +791,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -882,7 +809,7 @@
         "start": "2026-04-13",
         "end": "2026-04-19",
         "label": "Apr 13\u201319",
-        "age_weeks": 17,
+        "age_weeks": 18,
         "measured": {
           "gross_bookings": 26963.43,
           "units": 463,
@@ -916,7 +843,7 @@
         "refund_actual": {
           "booked_pct": 21.81,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -937,7 +864,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -955,7 +882,7 @@
         "start": "2026-04-20",
         "end": "2026-04-26",
         "label": "Apr 20\u201326",
-        "age_weeks": 16,
+        "age_weeks": 17,
         "measured": {
           "gross_bookings": 20764.88,
           "units": 375,
@@ -989,7 +916,7 @@
         "refund_actual": {
           "booked_pct": 25.96,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -1010,7 +937,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -1028,7 +955,7 @@
         "start": "2026-04-27",
         "end": "2026-05-03",
         "label": "Apr 27\u2013May 3",
-        "age_weeks": 15,
+        "age_weeks": 16,
         "measured": {
           "gross_bookings": 17971.36,
           "units": 266,
@@ -1040,7 +967,7 @@
             "google": 960.59,
             "impact": 203.94
           },
-          "refunds_booked": 4662.54
+          "refunds_booked": 4912.53
         },
         "accrued": {
           "retainers": 12634.62,
@@ -1060,10 +987,10 @@
         "total_spend": 26003.35,
         "asp_gross": 253.12,
         "refund_actual": {
-          "booked_pct": 25.94,
-          "is_mature": false,
-          "pct_of_eventual_visible": 99.4,
-          "provenance": "incomplete"
+          "booked_pct": 27.34,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.7,
+          "provenance": "measured"
         },
         "refund_bases_available": {
           "target": {
@@ -1083,7 +1010,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -1101,7 +1028,7 @@
         "start": "2026-05-04",
         "end": "2026-05-10",
         "label": "May 4\u201310",
-        "age_weeks": 14,
+        "age_weeks": 15,
         "measured": {
           "gross_bookings": 34146.94,
           "units": 391,
@@ -1135,7 +1062,7 @@
         "refund_actual": {
           "booked_pct": 22.24,
           "is_mature": false,
-          "pct_of_eventual_visible": 99.0,
+          "pct_of_eventual_visible": 99.4,
           "provenance": "incomplete"
         },
         "refund_bases_available": {
@@ -1156,7 +1083,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -1174,7 +1101,7 @@
         "start": "2026-05-11",
         "end": "2026-05-17",
         "label": "May 11\u201317",
-        "age_weeks": 13,
+        "age_weeks": 14,
         "measured": {
           "gross_bookings": 36264.22,
           "units": 185,
@@ -1208,7 +1135,7 @@
         "refund_actual": {
           "booked_pct": 21.93,
           "is_mature": false,
-          "pct_of_eventual_visible": 97.8,
+          "pct_of_eventual_visible": 98.8,
           "provenance": "incomplete"
         },
         "refund_bases_available": {
@@ -1229,7 +1156,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -1247,10 +1174,10 @@
         "start": "2026-05-18",
         "end": "2026-05-24",
         "label": "May 18\u201324",
-        "age_weeks": 12,
+        "age_weeks": 13,
         "measured": {
-          "gross_bookings": 43801.89,
-          "units": 230,
+          "gross_bookings": 44000.89,
+          "units": 231,
           "orders": 218,
           "new_customers": 181,
           "ad_spend": 19472.08,
@@ -1259,7 +1186,7 @@
             "google": 2833.33,
             "impact": 395.32
           },
-          "refunds_booked": 10147.88
+          "refunds_booked": 10424.9
         },
         "accrued": {
           "retainers": 12634.62,
@@ -1277,9 +1204,82 @@
         },
         "cac": 190.13,
         "total_spend": 34414.39,
-        "asp_gross": 242.0,
+        "asp_gross": 243.1,
         "refund_actual": {
-          "booked_pct": 23.17,
+          "booked_pct": 23.69,
+          "is_mature": false,
+          "pct_of_eventual_visible": 97.7,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.38,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 19472.08,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 180,
+          "tw_ncpa_do_not_use": 108.1782071884411,
+          "tw_in_week_refund_ratio_artifact": 9.057472313036072
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-05-25",
+        "end": "2026-05-31",
+        "label": "May 25\u201331",
+        "age_weeks": 12,
+        "measured": {
+          "gross_bookings": 41253.84,
+          "units": 219,
+          "orders": 211,
+          "new_customers": 163,
+          "ad_spend": 23255.6,
+          "ad_spend_by_line": {
+            "meta_core": 19603.64,
+            "google": 3347.99,
+            "impact": 303.97
+          },
+          "refunds_booked": 12821.74
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 234.34,
+        "total_spend": 38197.91,
+        "asp_gross": 253.09,
+        "refund_actual": {
+          "booked_pct": 31.08,
           "is_mature": false,
           "pct_of_eventual_visible": 97.6,
           "provenance": "incomplete"
@@ -1302,37 +1302,37 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
         "triple_whale_cross_check": {
-          "blendedAds": 19472.08,
+          "blendedAds": 23255.6,
           "custom_spend_suspected": false,
           "unrecognised_blended_delta": 0.0,
-          "tw_new_customer_orders": 180,
-          "tw_ncpa_do_not_use": 108.1782071884411,
-          "tw_in_week_refund_ratio_artifact": 9.057472313036072
+          "tw_new_customer_orders": 174,
+          "tw_ncpa_do_not_use": 133.6528539726853,
+          "tw_in_week_refund_ratio_artifact": 28.782341214550595
         }
       },
       {
         "period_type": "week",
-        "start": "2026-05-25",
-        "end": "2026-05-31",
-        "label": "May 25\u201331",
+        "start": "2026-06-01",
+        "end": "2026-06-07",
+        "label": "Jun 1\u20137",
         "age_weeks": 11,
         "measured": {
-          "gross_bookings": 41253.84,
-          "units": 219,
-          "orders": 211,
-          "new_customers": 163,
-          "ad_spend": 23255.6,
+          "gross_bookings": 56588.0,
+          "units": 254,
+          "orders": 238,
+          "new_customers": 209,
+          "ad_spend": 29367.04,
           "ad_spend_by_line": {
-            "meta_core": 19603.64,
-            "google": 3347.99,
-            "impact": 303.97
+            "meta_core": 25075.18,
+            "google": 3947.08,
+            "impact": 344.78
           },
-          "refunds_booked": 12567.59
+          "refunds_booked": 13327.97
         },
         "accrued": {
           "retainers": 12634.62,
@@ -1348,11 +1348,11 @@
           "_provenance": "assumed",
           "_warning": "Every input invented. Never present as measurement."
         },
-        "cac": 234.34,
-        "total_spend": 38197.91,
-        "asp_gross": 253.09,
+        "cac": 212.01,
+        "total_spend": 44309.35,
+        "asp_gross": 270.76,
         "refund_actual": {
-          "booked_pct": 30.46,
+          "booked_pct": 23.55,
           "is_mature": false,
           "pct_of_eventual_visible": 96.9,
           "provenance": "incomplete"
@@ -1375,80 +1375,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
-            "provenance": "measured"
-          }
-        },
-        "triple_whale_cross_check": {
-          "blendedAds": 23255.6,
-          "custom_spend_suspected": false,
-          "unrecognised_blended_delta": 0.0,
-          "tw_new_customer_orders": 174,
-          "tw_ncpa_do_not_use": 133.6528539726853,
-          "tw_in_week_refund_ratio_artifact": 28.782341214550595
-        }
-      },
-      {
-        "period_type": "week",
-        "start": "2026-06-01",
-        "end": "2026-06-07",
-        "label": "Jun 1\u20137",
-        "age_weeks": 10,
-        "measured": {
-          "gross_bookings": 56588.0,
-          "units": 254,
-          "orders": 238,
-          "new_customers": 209,
-          "ad_spend": 29367.04,
-          "ad_spend_by_line": {
-            "meta_core": 25075.18,
-            "google": 3947.08,
-            "impact": 344.78
-          },
-          "refunds_booked": 12304.23
-        },
-        "accrued": {
-          "retainers": 12634.62,
-          "variable": 2307.69,
-          "method": "x12_over_52"
-        },
-        "assumed": {
-          "ltv_consumables_total": 159.6,
-          "consumables_per_month": 19,
-          "active_months": 12,
-          "attach_rate_pct": 70,
-          "repeat_hardware": 0,
-          "_provenance": "assumed",
-          "_warning": "Every input invented. Never present as measurement."
-        },
-        "cac": 212.01,
-        "total_spend": 44309.35,
-        "asp_gross": 270.76,
-        "refund_actual": {
-          "booked_pct": 21.74,
-          "is_mature": false,
-          "pct_of_eventual_visible": 95.4,
-          "provenance": "incomplete"
-        },
-        "refund_bases_available": {
-          "target": {
-            "label": "Target",
-            "rate_pct": 10.0,
-            "provenance": "assumed"
-          },
-          "planning": {
-            "label": "Planning",
-            "rate_pct": 20.0,
-            "provenance": "assumed"
-          },
-          "bad": {
-            "label": "Bad scenario",
-            "rate_pct": 30.0,
-            "provenance": "assumed"
-          },
-          "measured": {
-            "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -1466,7 +1393,7 @@
         "start": "2026-06-08",
         "end": "2026-06-14",
         "label": "Jun 8\u201314",
-        "age_weeks": 9,
+        "age_weeks": 10,
         "measured": {
           "gross_bookings": 39918.1,
           "units": 183,
@@ -1478,7 +1405,7 @@
             "google": 3963.14,
             "impact": 864.83
           },
-          "refunds_booked": 6764.24
+          "refunds_booked": 7272.54
         },
         "accrued": {
           "retainers": 12634.62,
@@ -1498,9 +1425,9 @@
         "total_spend": 39525.32,
         "asp_gross": 260.9,
         "refund_actual": {
-          "booked_pct": 16.95,
+          "booked_pct": 18.22,
           "is_mature": false,
-          "pct_of_eventual_visible": 92.3,
+          "pct_of_eventual_visible": 95.5,
           "provenance": "incomplete"
         },
         "refund_bases_available": {
@@ -1521,7 +1448,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -1539,10 +1466,10 @@
         "start": "2026-06-15",
         "end": "2026-06-21",
         "label": "Jun 15\u201321",
-        "age_weeks": 8,
+        "age_weeks": 9,
         "measured": {
-          "gross_bookings": 51193.54,
-          "units": 347,
+          "gross_bookings": 51559.45,
+          "units": 349,
           "orders": 251,
           "new_customers": 227,
           "ad_spend": 20228.86,
@@ -1551,7 +1478,7 @@
             "google": 3873.37,
             "impact": 339.64
           },
-          "refunds_booked": 7115.49
+          "refunds_booked": 8526.91
         },
         "accrued": {
           "retainers": 12634.62,
@@ -1569,11 +1496,11 @@
         },
         "cac": 154.94,
         "total_spend": 35171.17,
-        "asp_gross": 225.52,
+        "asp_gross": 227.13,
         "refund_actual": {
-          "booked_pct": 13.9,
+          "booked_pct": 16.54,
           "is_mature": false,
-          "pct_of_eventual_visible": 89.4,
+          "pct_of_eventual_visible": 92.0,
           "provenance": "incomplete"
         },
         "refund_bases_available": {
@@ -1594,7 +1521,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -1612,10 +1539,10 @@
         "start": "2026-06-22",
         "end": "2026-06-28",
         "label": "Jun 22\u201328",
-        "age_weeks": 7,
+        "age_weeks": 8,
         "measured": {
-          "gross_bookings": 38236.78,
-          "units": 190,
+          "gross_bookings": 38490.93,
+          "units": 191,
           "orders": 182,
           "new_customers": 164,
           "ad_spend": 19331.15,
@@ -1624,7 +1551,7 @@
             "google": 3225.5,
             "impact": 184.3
           },
-          "refunds_booked": 6281.42
+          "refunds_booked": 7077.42
         },
         "accrued": {
           "retainers": 12634.62,
@@ -1642,11 +1569,11 @@
         },
         "cac": 208.98,
         "total_spend": 34273.46,
-        "asp_gross": 233.15,
+        "asp_gross": 234.7,
         "refund_actual": {
-          "booked_pct": 16.43,
+          "booked_pct": 18.39,
           "is_mature": false,
-          "pct_of_eventual_visible": 79.6,
+          "pct_of_eventual_visible": 88.9,
           "provenance": "incomplete"
         },
         "refund_bases_available": {
@@ -1667,7 +1594,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -1685,7 +1612,7 @@
         "start": "2026-06-29",
         "end": "2026-07-05",
         "label": "Jun 29\u2013Jul 5",
-        "age_weeks": 6,
+        "age_weeks": 7,
         "measured": {
           "gross_bookings": 36759.6,
           "units": 179,
@@ -1697,7 +1624,7 @@
             "google": 2622.01,
             "impact": 319.29
           },
-          "refunds_booked": 6671.12
+          "refunds_booked": 7567.12
         },
         "accrued": {
           "retainers": 12634.62,
@@ -1717,9 +1644,9 @@
         "total_spend": 34677.87,
         "asp_gross": 228.32,
         "refund_actual": {
-          "booked_pct": 18.15,
+          "booked_pct": 20.59,
           "is_mature": false,
-          "pct_of_eventual_visible": 67.7,
+          "pct_of_eventual_visible": 79.0,
           "provenance": "incomplete"
         },
         "refund_bases_available": {
@@ -1740,7 +1667,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -1758,7 +1685,7 @@
         "start": "2026-07-06",
         "end": "2026-07-12",
         "label": "Jul 6\u201312",
-        "age_weeks": 5,
+        "age_weeks": 6,
         "measured": {
           "gross_bookings": 37035.57,
           "units": 198,
@@ -1770,7 +1697,7 @@
             "google": 3118.29,
             "impact": 417.02
           },
-          "refunds_booked": 6322.09
+          "refunds_booked": 8130.51
         },
         "accrued": {
           "retainers": 12634.62,
@@ -1790,7 +1717,80 @@
         "total_spend": 34987.76,
         "asp_gross": 216.58,
         "refund_actual": {
-          "booked_pct": 17.07,
+          "booked_pct": 21.95,
+          "is_mature": false,
+          "pct_of_eventual_visible": 67.2,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.38,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 20045.45,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 183,
+          "tw_ncpa_do_not_use": 109.5379574876584,
+          "tw_in_week_refund_ratio_artifact": 29.945523239822766
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-07-13",
+        "end": "2026-07-19",
+        "label": "Jul 13\u201319",
+        "age_weeks": 5,
+        "measured": {
+          "gross_bookings": 34626.02,
+          "units": 180,
+          "orders": 173,
+          "new_customers": 158,
+          "ad_spend": 20140.48,
+          "ad_spend_by_line": {
+            "meta_core": 16502.25,
+            "google": 3190.48,
+            "impact": 447.75
+          },
+          "refunds_booked": 6231.63
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 222.04,
+        "total_spend": 35082.79,
+        "asp_gross": 219.15,
+        "refund_actual": {
+          "booked_pct": 18.0,
           "is_mature": false,
           "pct_of_eventual_visible": 55.3,
           "provenance": "incomplete"
@@ -1813,80 +1813,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
-            "provenance": "measured"
-          }
-        },
-        "triple_whale_cross_check": {
-          "blendedAds": 20045.45,
-          "custom_spend_suspected": false,
-          "unrecognised_blended_delta": 0.0,
-          "tw_new_customer_orders": 183,
-          "tw_ncpa_do_not_use": 109.5379574876584,
-          "tw_in_week_refund_ratio_artifact": 29.945523239822766
-        }
-      },
-      {
-        "period_type": "week",
-        "start": "2026-07-13",
-        "end": "2026-07-19",
-        "label": "Jul 13\u201319",
-        "age_weeks": 4,
-        "measured": {
-          "gross_bookings": 34626.02,
-          "units": 180,
-          "orders": 173,
-          "new_customers": 158,
-          "ad_spend": 20140.48,
-          "ad_spend_by_line": {
-            "meta_core": 16502.25,
-            "google": 3190.48,
-            "impact": 447.75
-          },
-          "refunds_booked": 3812.0
-        },
-        "accrued": {
-          "retainers": 12634.62,
-          "variable": 2307.69,
-          "method": "x12_over_52"
-        },
-        "assumed": {
-          "ltv_consumables_total": 159.6,
-          "consumables_per_month": 19,
-          "active_months": 12,
-          "attach_rate_pct": 70,
-          "repeat_hardware": 0,
-          "_provenance": "assumed",
-          "_warning": "Every input invented. Never present as measurement."
-        },
-        "cac": 222.04,
-        "total_spend": 35082.79,
-        "asp_gross": 219.15,
-        "refund_actual": {
-          "booked_pct": 11.01,
-          "is_mature": false,
-          "pct_of_eventual_visible": 38.7,
-          "provenance": "incomplete"
-        },
-        "refund_bases_available": {
-          "target": {
-            "label": "Target",
-            "rate_pct": 10.0,
-            "provenance": "assumed"
-          },
-          "planning": {
-            "label": "Planning",
-            "rate_pct": 20.0,
-            "provenance": "assumed"
-          },
-          "bad": {
-            "label": "Bad scenario",
-            "rate_pct": 30.0,
-            "provenance": "assumed"
-          },
-          "measured": {
-            "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -1904,7 +1831,7 @@
         "start": "2026-07-20",
         "end": "2026-07-26",
         "label": "Jul 20\u201326",
-        "age_weeks": 3,
+        "age_weeks": 4,
         "measured": {
           "gross_bookings": 35307.93,
           "units": 154,
@@ -1916,7 +1843,7 @@
             "google": 2968.68,
             "impact": 321.16
           },
-          "refunds_booked": 2552.58
+          "refunds_booked": 3150.58
         },
         "accrued": {
           "retainers": 12634.62,
@@ -1936,9 +1863,9 @@
         "total_spend": 32038.94,
         "asp_gross": 261.54,
         "refund_actual": {
-          "booked_pct": 7.23,
+          "booked_pct": 8.92,
           "is_mature": false,
-          "pct_of_eventual_visible": 21.4,
+          "pct_of_eventual_visible": 36.9,
           "provenance": "incomplete"
         },
         "refund_bases_available": {
@@ -1959,7 +1886,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -1977,7 +1904,7 @@
         "start": "2026-07-27",
         "end": "2026-08-02",
         "label": "Jul 27\u2013Aug 2",
-        "age_weeks": 2,
+        "age_weeks": 3,
         "measured": {
           "gross_bookings": 36129.65,
           "units": 252,
@@ -1989,7 +1916,7 @@
             "google": 2961.11,
             "impact": 338.33
           },
-          "refunds_booked": 1405.4
+          "refunds_booked": 2928.47
         },
         "accrued": {
           "retainers": 12634.62,
@@ -2009,9 +1936,9 @@
         "total_spend": 32011.45,
         "asp_gross": 258.07,
         "refund_actual": {
-          "booked_pct": 3.89,
+          "booked_pct": 8.11,
           "is_mature": false,
-          "pct_of_eventual_visible": 9.0,
+          "pct_of_eventual_visible": 20.5,
           "provenance": "incomplete"
         },
         "refund_bases_available": {
@@ -2032,7 +1959,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -2050,7 +1977,7 @@
         "start": "2026-08-03",
         "end": "2026-08-09",
         "label": "Aug 3\u20139",
-        "age_weeks": 1,
+        "age_weeks": 2,
         "measured": {
           "gross_bookings": 32748.3,
           "units": 145,
@@ -2062,7 +1989,7 @@
             "google": 3148.32,
             "impact": 269.84
           },
-          "refunds_booked": 1205.48
+          "refunds_booked": 2433.11
         },
         "accrued": {
           "retainers": 12634.62,
@@ -2082,9 +2009,9 @@
         "total_spend": 31249.02,
         "asp_gross": 282.31,
         "refund_actual": {
-          "booked_pct": 3.68,
+          "booked_pct": 7.43,
           "is_mature": false,
-          "pct_of_eventual_visible": 3.8,
+          "pct_of_eventual_visible": 8.6,
           "provenance": "incomplete"
         },
         "refund_bases_available": {
@@ -2105,7 +2032,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -2123,7 +2050,7 @@
         "start": "2026-08-10",
         "end": "2026-08-16",
         "label": "Aug 10\u201316",
-        "age_weeks": 0,
+        "age_weeks": 1,
         "measured": {
           "gross_bookings": 34918.28,
           "units": 158,
@@ -2135,7 +2062,7 @@
             "google": 3065.72,
             "impact": 171.62
           },
-          "refunds_booked": 299.0
+          "refunds_booked": 747.5
         },
         "accrued": {
           "retainers": 12634.62,
@@ -2155,9 +2082,9 @@
         "total_spend": 31187.12,
         "asp_gross": 281.6,
         "refund_actual": {
-          "booked_pct": 0.86,
+          "booked_pct": 2.14,
           "is_mature": false,
-          "pct_of_eventual_visible": 2.3,
+          "pct_of_eventual_visible": 3.5,
           "provenance": "incomplete"
         },
         "refund_bases_available": {
@@ -2178,7 +2105,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -2190,6 +2117,79 @@
           "tw_ncpa_do_not_use": 133.15416359812878,
           "tw_in_week_refund_ratio_artifact": 48.72084926131717
         }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-08-17",
+        "end": "2026-08-23",
+        "label": "Aug 17\u201323",
+        "age_weeks": 0,
+        "measured": {
+          "gross_bookings": 35161.25,
+          "units": 153,
+          "orders": 147,
+          "new_customers": 125,
+          "ad_spend": 15872.12,
+          "ad_spend_by_line": {
+            "meta_core": 12497.69,
+            "google": 3047.15,
+            "impact": 327.28
+          },
+          "refunds_booked": 280.2
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 246.52,
+        "total_spend": 30814.43,
+        "asp_gross": 281.29,
+        "refund_actual": {
+          "booked_pct": 0.8,
+          "is_mature": false,
+          "pct_of_eventual_visible": 2.2,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.38,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 15872.12,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 116,
+          "tw_ncpa_do_not_use": 136.8285883034515,
+          "tw_in_week_refund_ratio_artifact": 41.80600875991914
+        }
       }
     ],
     "month": [
@@ -2198,7 +2198,7 @@
         "start": "2025-11-01",
         "end": "2025-11-30",
         "label": "Nov 2025",
-        "age_weeks": 37,
+        "age_weeks": 38,
         "measured": {
           "gross_bookings": 17654.26,
           "units": 95,
@@ -2232,7 +2232,7 @@
         "refund_actual": {
           "booked_pct": 10.83,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -2253,7 +2253,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -2271,7 +2271,7 @@
         "start": "2025-12-01",
         "end": "2025-12-31",
         "label": "Dec 2025",
-        "age_weeks": 32,
+        "age_weeks": 33,
         "measured": {
           "gross_bookings": 27676.89,
           "units": 229,
@@ -2305,7 +2305,7 @@
         "refund_actual": {
           "booked_pct": 12.2,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -2326,7 +2326,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -2344,7 +2344,7 @@
         "start": "2026-01-01",
         "end": "2026-01-31",
         "label": "Jan 2026",
-        "age_weeks": 28,
+        "age_weeks": 29,
         "measured": {
           "gross_bookings": 35973.62,
           "units": 479,
@@ -2378,7 +2378,7 @@
         "refund_actual": {
           "booked_pct": 18.2,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -2399,7 +2399,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -2417,7 +2417,7 @@
         "start": "2026-02-01",
         "end": "2026-02-28",
         "label": "Feb 2026",
-        "age_weeks": 24,
+        "age_weeks": 25,
         "measured": {
           "gross_bookings": 168526.48,
           "units": 1663,
@@ -2451,7 +2451,7 @@
         "refund_actual": {
           "booked_pct": 24.38,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -2472,7 +2472,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -2524,7 +2524,7 @@
         "refund_actual": {
           "booked_pct": 21.95,
           "is_mature": true,
-          "pct_of_eventual_visible": 99.6,
+          "pct_of_eventual_visible": 99.7,
           "provenance": "measured"
         },
         "refund_bases_available": {
@@ -2545,7 +2545,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -2563,7 +2563,7 @@
         "start": "2026-04-01",
         "end": "2026-04-30",
         "label": "Apr 2026",
-        "age_weeks": 15,
+        "age_weeks": 16,
         "measured": {
           "gross_bookings": 93452.12,
           "units": 1852,
@@ -2596,9 +2596,9 @@
         "asp_gross": 292.95,
         "refund_actual": {
           "booked_pct": 25.1,
-          "is_mature": false,
-          "pct_of_eventual_visible": 99.4,
-          "provenance": "incomplete"
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.7,
+          "provenance": "measured"
         },
         "refund_bases_available": {
           "target": {
@@ -2618,7 +2618,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -2636,10 +2636,10 @@
         "start": "2026-05-01",
         "end": "2026-05-31",
         "label": "May 2026",
-        "age_weeks": 11,
+        "age_weeks": 12,
         "measured": {
-          "gross_bookings": 164676.74,
-          "units": 1104,
+          "gross_bookings": 164875.74,
+          "units": 1105,
           "orders": 851,
           "new_customers": 672,
           "ad_spend": 80875.64,
@@ -2648,7 +2648,7 @@
             "google": 10283.71,
             "impact": 1199.39
           },
-          "refunds_booked": 40292.04
+          "refunds_booked": 41073.2
         },
         "accrued": {
           "retainers": 54750.0,
@@ -2666,11 +2666,11 @@
         },
         "cac": 216.7,
         "total_spend": 145625.64,
-        "asp_gross": 245.05,
+        "asp_gross": 245.35,
         "refund_actual": {
-          "booked_pct": 24.47,
+          "booked_pct": 24.91,
           "is_mature": false,
-          "pct_of_eventual_visible": 96.9,
+          "pct_of_eventual_visible": 97.6,
           "provenance": "incomplete"
         },
         "refund_bases_available": {
@@ -2691,7 +2691,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -2711,8 +2711,8 @@
         "label": "Jun 2026",
         "age_weeks": 7,
         "measured": {
-          "gross_bookings": 193531.39,
-          "units": 1005,
+          "gross_bookings": 194151.45,
+          "units": 1008,
           "orders": 879,
           "new_customers": 784,
           "ad_spend": 99884.31,
@@ -2721,7 +2721,7 @@
             "google": 15768.37,
             "impact": 1812.04
           },
-          "refunds_booked": 33452.08
+          "refunds_booked": 37490.54
         },
         "accrued": {
           "retainers": 54750.0,
@@ -2739,11 +2739,11 @@
         },
         "cac": 209.99,
         "total_spend": 164634.31,
-        "asp_gross": 246.85,
+        "asp_gross": 247.64,
         "refund_actual": {
-          "booked_pct": 17.29,
+          "booked_pct": 19.31,
           "is_mature": false,
-          "pct_of_eventual_visible": 79.6,
+          "pct_of_eventual_visible": 79.0,
           "provenance": "incomplete"
         },
         "refund_bases_available": {
@@ -2764,7 +2764,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -2774,7 +2774,7 @@
           "unrecognised_blended_delta": 0.0,
           "tw_new_customer_orders": 791,
           "tw_ncpa_do_not_use": 126.27599348154216,
-          "tw_in_week_refund_ratio_artifact": 16.64378771484791
+          "tw_in_week_refund_ratio_artifact": 16.591259769638718
         }
       },
       {
@@ -2782,7 +2782,7 @@
         "start": "2026-07-01",
         "end": "2026-07-31",
         "label": "Jul 2026",
-        "age_weeks": 2,
+        "age_weeks": 3,
         "measured": {
           "gross_bookings": 163021.54,
           "units": 892,
@@ -2794,7 +2794,7 @@
             "google": 13316.56,
             "impact": 1624.83
           },
-          "refunds_booked": 19776.49
+          "refunds_booked": 26216.89
         },
         "accrued": {
           "retainers": 54750.0,
@@ -2814,9 +2814,9 @@
         "total_spend": 147742.36,
         "asp_gross": 233.56,
         "refund_actual": {
-          "booked_pct": 12.13,
+          "booked_pct": 16.08,
           "is_mature": false,
-          "pct_of_eventual_visible": 9.0,
+          "pct_of_eventual_visible": 20.5,
           "provenance": "incomplete"
         },
         "refund_bases_available": {
@@ -2837,7 +2837,7 @@
           },
           "measured": {
             "label": "Measured",
-            "rate_pct": 23.41,
+            "rate_pct": 23.38,
             "provenance": "measured"
           }
         },
@@ -2855,83 +2855,10 @@
   "weeks": [
     {
       "period_type": "week",
-      "start": "2026-01-19",
-      "end": "2026-01-25",
-      "label": "Jan 19\u201325",
-      "age_weeks": 29,
-      "measured": {
-        "gross_bookings": 11185.4,
-        "units": 124,
-        "orders": 50,
-        "new_customers": 46,
-        "ad_spend": 1949.8,
-        "ad_spend_by_line": {
-          "meta_core": 1622.22,
-          "google": 327.58,
-          "impact": 0.0
-        },
-        "refunds_booked": 1046.13
-      },
-      "accrued": {
-        "retainers": 12634.62,
-        "variable": 2307.69,
-        "method": "x12_over_52"
-      },
-      "assumed": {
-        "ltv_consumables_total": 159.6,
-        "consumables_per_month": 19,
-        "active_months": 12,
-        "attach_rate_pct": 70,
-        "repeat_hardware": 0,
-        "_provenance": "assumed",
-        "_warning": "Every input invented. Never present as measurement."
-      },
-      "cac": 367.22,
-      "total_spend": 16892.11,
-      "asp_gross": 243.16,
-      "refund_actual": {
-        "booked_pct": 9.35,
-        "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
-        "provenance": "measured"
-      },
-      "refund_bases_available": {
-        "target": {
-          "label": "Target",
-          "rate_pct": 10.0,
-          "provenance": "assumed"
-        },
-        "planning": {
-          "label": "Planning",
-          "rate_pct": 20.0,
-          "provenance": "assumed"
-        },
-        "bad": {
-          "label": "Bad scenario",
-          "rate_pct": 30.0,
-          "provenance": "assumed"
-        },
-        "measured": {
-          "label": "Measured",
-          "rate_pct": 23.41,
-          "provenance": "measured"
-        }
-      },
-      "triple_whale_cross_check": {
-        "blendedAds": 1949.8,
-        "custom_spend_suspected": false,
-        "unrecognised_blended_delta": 0.0,
-        "tw_new_customer_orders": 46,
-        "tw_ncpa_do_not_use": 42.386924905257054,
-        "tw_in_week_refund_ratio_artifact": 12.75216909592065
-      }
-    },
-    {
-      "period_type": "week",
       "start": "2026-01-26",
       "end": "2026-02-01",
       "label": "Jan 26\u2013Feb 1",
-      "age_weeks": 28,
+      "age_weeks": 29,
       "measured": {
         "gross_bookings": 6873.11,
         "units": 172,
@@ -2965,7 +2892,7 @@
       "refund_actual": {
         "booked_pct": 35.07,
         "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
+        "pct_of_eventual_visible": 99.7,
         "provenance": "measured"
       },
       "refund_bases_available": {
@@ -2986,7 +2913,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3004,7 +2931,7 @@
       "start": "2026-02-02",
       "end": "2026-02-08",
       "label": "Feb 2\u20138",
-      "age_weeks": 27,
+      "age_weeks": 28,
       "measured": {
         "gross_bookings": 5718.87,
         "units": 202,
@@ -3038,7 +2965,7 @@
       "refund_actual": {
         "booked_pct": 30.07,
         "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
+        "pct_of_eventual_visible": 99.7,
         "provenance": "measured"
       },
       "refund_bases_available": {
@@ -3059,7 +2986,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3077,7 +3004,7 @@
       "start": "2026-02-09",
       "end": "2026-02-15",
       "label": "Feb 9\u201315",
-      "age_weeks": 26,
+      "age_weeks": 27,
       "measured": {
         "gross_bookings": 94226.53,
         "units": 799,
@@ -3111,7 +3038,7 @@
       "refund_actual": {
         "booked_pct": 24.18,
         "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
+        "pct_of_eventual_visible": 99.7,
         "provenance": "measured"
       },
       "refund_bases_available": {
@@ -3132,7 +3059,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3150,7 +3077,7 @@
       "start": "2026-02-16",
       "end": "2026-02-22",
       "label": "Feb 16\u201322",
-      "age_weeks": 25,
+      "age_weeks": 26,
       "measured": {
         "gross_bookings": 40128.11,
         "units": 389,
@@ -3184,7 +3111,7 @@
       "refund_actual": {
         "booked_pct": 24.34,
         "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
+        "pct_of_eventual_visible": 99.7,
         "provenance": "measured"
       },
       "refund_bases_available": {
@@ -3205,7 +3132,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3223,7 +3150,7 @@
       "start": "2026-02-23",
       "end": "2026-03-01",
       "label": "Feb 23\u2013Mar 1",
-      "age_weeks": 24,
+      "age_weeks": 25,
       "measured": {
         "gross_bookings": 35369.01,
         "units": 350,
@@ -3257,7 +3184,7 @@
       "refund_actual": {
         "booked_pct": 22.39,
         "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
+        "pct_of_eventual_visible": 99.7,
         "provenance": "measured"
       },
       "refund_bases_available": {
@@ -3278,7 +3205,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3296,7 +3223,7 @@
       "start": "2026-03-02",
       "end": "2026-03-08",
       "label": "Mar 2\u20138",
-      "age_weeks": 23,
+      "age_weeks": 24,
       "measured": {
         "gross_bookings": 34677.79,
         "units": 400,
@@ -3330,7 +3257,7 @@
       "refund_actual": {
         "booked_pct": 19.81,
         "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
+        "pct_of_eventual_visible": 99.7,
         "provenance": "measured"
       },
       "refund_bases_available": {
@@ -3351,7 +3278,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3369,7 +3296,7 @@
       "start": "2026-03-09",
       "end": "2026-03-15",
       "label": "Mar 9\u201315",
-      "age_weeks": 22,
+      "age_weeks": 23,
       "measured": {
         "gross_bookings": 26433.62,
         "units": 730,
@@ -3403,7 +3330,7 @@
       "refund_actual": {
         "booked_pct": 28.16,
         "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
+        "pct_of_eventual_visible": 99.7,
         "provenance": "measured"
       },
       "refund_bases_available": {
@@ -3424,7 +3351,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3442,7 +3369,7 @@
       "start": "2026-03-16",
       "end": "2026-03-22",
       "label": "Mar 16\u201322",
-      "age_weeks": 21,
+      "age_weeks": 22,
       "measured": {
         "gross_bookings": 22197.27,
         "units": 358,
@@ -3476,7 +3403,7 @@
       "refund_actual": {
         "booked_pct": 14.58,
         "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
+        "pct_of_eventual_visible": 99.7,
         "provenance": "measured"
       },
       "refund_bases_available": {
@@ -3497,7 +3424,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3515,7 +3442,7 @@
       "start": "2026-03-23",
       "end": "2026-03-29",
       "label": "Mar 23\u201329",
-      "age_weeks": 20,
+      "age_weeks": 21,
       "measured": {
         "gross_bookings": 19459.12,
         "units": 263,
@@ -3549,7 +3476,7 @@
       "refund_actual": {
         "booked_pct": 28.14,
         "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
+        "pct_of_eventual_visible": 99.7,
         "provenance": "measured"
       },
       "refund_bases_available": {
@@ -3570,7 +3497,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3588,7 +3515,7 @@
       "start": "2026-03-30",
       "end": "2026-04-05",
       "label": "Mar 30\u2013Apr 5",
-      "age_weeks": 19,
+      "age_weeks": 20,
       "measured": {
         "gross_bookings": 21191.94,
         "units": 323,
@@ -3622,7 +3549,7 @@
       "refund_actual": {
         "booked_pct": 25.88,
         "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
+        "pct_of_eventual_visible": 99.7,
         "provenance": "measured"
       },
       "refund_bases_available": {
@@ -3643,7 +3570,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3661,7 +3588,7 @@
       "start": "2026-04-06",
       "end": "2026-04-12",
       "label": "Apr 6\u201312",
-      "age_weeks": 18,
+      "age_weeks": 19,
       "measured": {
         "gross_bookings": 21187.8,
         "units": 573,
@@ -3695,7 +3622,7 @@
       "refund_actual": {
         "booked_pct": 24.6,
         "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
+        "pct_of_eventual_visible": 99.7,
         "provenance": "measured"
       },
       "refund_bases_available": {
@@ -3716,7 +3643,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3734,7 +3661,7 @@
       "start": "2026-04-13",
       "end": "2026-04-19",
       "label": "Apr 13\u201319",
-      "age_weeks": 17,
+      "age_weeks": 18,
       "measured": {
         "gross_bookings": 26963.43,
         "units": 463,
@@ -3768,7 +3695,7 @@
       "refund_actual": {
         "booked_pct": 21.81,
         "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
+        "pct_of_eventual_visible": 99.7,
         "provenance": "measured"
       },
       "refund_bases_available": {
@@ -3789,7 +3716,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3807,7 +3734,7 @@
       "start": "2026-04-20",
       "end": "2026-04-26",
       "label": "Apr 20\u201326",
-      "age_weeks": 16,
+      "age_weeks": 17,
       "measured": {
         "gross_bookings": 20764.88,
         "units": 375,
@@ -3841,7 +3768,7 @@
       "refund_actual": {
         "booked_pct": 25.96,
         "is_mature": true,
-        "pct_of_eventual_visible": 99.6,
+        "pct_of_eventual_visible": 99.7,
         "provenance": "measured"
       },
       "refund_bases_available": {
@@ -3862,7 +3789,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3880,7 +3807,7 @@
       "start": "2026-04-27",
       "end": "2026-05-03",
       "label": "Apr 27\u2013May 3",
-      "age_weeks": 15,
+      "age_weeks": 16,
       "measured": {
         "gross_bookings": 17971.36,
         "units": 266,
@@ -3892,7 +3819,7 @@
           "google": 960.59,
           "impact": 203.94
         },
-        "refunds_booked": 4662.54
+        "refunds_booked": 4912.53
       },
       "accrued": {
         "retainers": 12634.62,
@@ -3912,10 +3839,10 @@
       "total_spend": 26003.35,
       "asp_gross": 253.12,
       "refund_actual": {
-        "booked_pct": 25.94,
-        "is_mature": false,
-        "pct_of_eventual_visible": 99.4,
-        "provenance": "incomplete"
+        "booked_pct": 27.34,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.7,
+        "provenance": "measured"
       },
       "refund_bases_available": {
         "target": {
@@ -3935,7 +3862,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -3953,7 +3880,7 @@
       "start": "2026-05-04",
       "end": "2026-05-10",
       "label": "May 4\u201310",
-      "age_weeks": 14,
+      "age_weeks": 15,
       "measured": {
         "gross_bookings": 34146.94,
         "units": 391,
@@ -3987,7 +3914,7 @@
       "refund_actual": {
         "booked_pct": 22.24,
         "is_mature": false,
-        "pct_of_eventual_visible": 99.0,
+        "pct_of_eventual_visible": 99.4,
         "provenance": "incomplete"
       },
       "refund_bases_available": {
@@ -4008,7 +3935,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -4026,7 +3953,7 @@
       "start": "2026-05-11",
       "end": "2026-05-17",
       "label": "May 11\u201317",
-      "age_weeks": 13,
+      "age_weeks": 14,
       "measured": {
         "gross_bookings": 36264.22,
         "units": 185,
@@ -4060,7 +3987,7 @@
       "refund_actual": {
         "booked_pct": 21.93,
         "is_mature": false,
-        "pct_of_eventual_visible": 97.8,
+        "pct_of_eventual_visible": 98.8,
         "provenance": "incomplete"
       },
       "refund_bases_available": {
@@ -4081,7 +4008,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -4099,10 +4026,10 @@
       "start": "2026-05-18",
       "end": "2026-05-24",
       "label": "May 18\u201324",
-      "age_weeks": 12,
+      "age_weeks": 13,
       "measured": {
-        "gross_bookings": 43801.89,
-        "units": 230,
+        "gross_bookings": 44000.89,
+        "units": 231,
         "orders": 218,
         "new_customers": 181,
         "ad_spend": 19472.08,
@@ -4111,7 +4038,7 @@
           "google": 2833.33,
           "impact": 395.32
         },
-        "refunds_booked": 10147.88
+        "refunds_booked": 10424.9
       },
       "accrued": {
         "retainers": 12634.62,
@@ -4129,9 +4056,82 @@
       },
       "cac": 190.13,
       "total_spend": 34414.39,
-      "asp_gross": 242.0,
+      "asp_gross": 243.1,
       "refund_actual": {
-        "booked_pct": 23.17,
+        "booked_pct": 23.69,
+        "is_mature": false,
+        "pct_of_eventual_visible": 97.7,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.38,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 19472.08,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 180,
+        "tw_ncpa_do_not_use": 108.1782071884411,
+        "tw_in_week_refund_ratio_artifact": 9.057472313036072
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-05-25",
+      "end": "2026-05-31",
+      "label": "May 25\u201331",
+      "age_weeks": 12,
+      "measured": {
+        "gross_bookings": 41253.84,
+        "units": 219,
+        "orders": 211,
+        "new_customers": 163,
+        "ad_spend": 23255.6,
+        "ad_spend_by_line": {
+          "meta_core": 19603.64,
+          "google": 3347.99,
+          "impact": 303.97
+        },
+        "refunds_booked": 12821.74
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 234.34,
+      "total_spend": 38197.91,
+      "asp_gross": 253.09,
+      "refund_actual": {
+        "booked_pct": 31.08,
         "is_mature": false,
         "pct_of_eventual_visible": 97.6,
         "provenance": "incomplete"
@@ -4154,37 +4154,37 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
       "triple_whale_cross_check": {
-        "blendedAds": 19472.08,
+        "blendedAds": 23255.6,
         "custom_spend_suspected": false,
         "unrecognised_blended_delta": 0.0,
-        "tw_new_customer_orders": 180,
-        "tw_ncpa_do_not_use": 108.1782071884411,
-        "tw_in_week_refund_ratio_artifact": 9.057472313036072
+        "tw_new_customer_orders": 174,
+        "tw_ncpa_do_not_use": 133.6528539726853,
+        "tw_in_week_refund_ratio_artifact": 28.782341214550595
       }
     },
     {
       "period_type": "week",
-      "start": "2026-05-25",
-      "end": "2026-05-31",
-      "label": "May 25\u201331",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "label": "Jun 1\u20137",
       "age_weeks": 11,
       "measured": {
-        "gross_bookings": 41253.84,
-        "units": 219,
-        "orders": 211,
-        "new_customers": 163,
-        "ad_spend": 23255.6,
+        "gross_bookings": 56588.0,
+        "units": 254,
+        "orders": 238,
+        "new_customers": 209,
+        "ad_spend": 29367.04,
         "ad_spend_by_line": {
-          "meta_core": 19603.64,
-          "google": 3347.99,
-          "impact": 303.97
+          "meta_core": 25075.18,
+          "google": 3947.08,
+          "impact": 344.78
         },
-        "refunds_booked": 12567.59
+        "refunds_booked": 13327.97
       },
       "accrued": {
         "retainers": 12634.62,
@@ -4200,11 +4200,11 @@
         "_provenance": "assumed",
         "_warning": "Every input invented. Never present as measurement."
       },
-      "cac": 234.34,
-      "total_spend": 38197.91,
-      "asp_gross": 253.09,
+      "cac": 212.01,
+      "total_spend": 44309.35,
+      "asp_gross": 270.76,
       "refund_actual": {
-        "booked_pct": 30.46,
+        "booked_pct": 23.55,
         "is_mature": false,
         "pct_of_eventual_visible": 96.9,
         "provenance": "incomplete"
@@ -4227,80 +4227,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
-          "provenance": "measured"
-        }
-      },
-      "triple_whale_cross_check": {
-        "blendedAds": 23255.6,
-        "custom_spend_suspected": false,
-        "unrecognised_blended_delta": 0.0,
-        "tw_new_customer_orders": 174,
-        "tw_ncpa_do_not_use": 133.6528539726853,
-        "tw_in_week_refund_ratio_artifact": 28.782341214550595
-      }
-    },
-    {
-      "period_type": "week",
-      "start": "2026-06-01",
-      "end": "2026-06-07",
-      "label": "Jun 1\u20137",
-      "age_weeks": 10,
-      "measured": {
-        "gross_bookings": 56588.0,
-        "units": 254,
-        "orders": 238,
-        "new_customers": 209,
-        "ad_spend": 29367.04,
-        "ad_spend_by_line": {
-          "meta_core": 25075.18,
-          "google": 3947.08,
-          "impact": 344.78
-        },
-        "refunds_booked": 12304.23
-      },
-      "accrued": {
-        "retainers": 12634.62,
-        "variable": 2307.69,
-        "method": "x12_over_52"
-      },
-      "assumed": {
-        "ltv_consumables_total": 159.6,
-        "consumables_per_month": 19,
-        "active_months": 12,
-        "attach_rate_pct": 70,
-        "repeat_hardware": 0,
-        "_provenance": "assumed",
-        "_warning": "Every input invented. Never present as measurement."
-      },
-      "cac": 212.01,
-      "total_spend": 44309.35,
-      "asp_gross": 270.76,
-      "refund_actual": {
-        "booked_pct": 21.74,
-        "is_mature": false,
-        "pct_of_eventual_visible": 95.4,
-        "provenance": "incomplete"
-      },
-      "refund_bases_available": {
-        "target": {
-          "label": "Target",
-          "rate_pct": 10.0,
-          "provenance": "assumed"
-        },
-        "planning": {
-          "label": "Planning",
-          "rate_pct": 20.0,
-          "provenance": "assumed"
-        },
-        "bad": {
-          "label": "Bad scenario",
-          "rate_pct": 30.0,
-          "provenance": "assumed"
-        },
-        "measured": {
-          "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -4318,7 +4245,7 @@
       "start": "2026-06-08",
       "end": "2026-06-14",
       "label": "Jun 8\u201314",
-      "age_weeks": 9,
+      "age_weeks": 10,
       "measured": {
         "gross_bookings": 39918.1,
         "units": 183,
@@ -4330,7 +4257,7 @@
           "google": 3963.14,
           "impact": 864.83
         },
-        "refunds_booked": 6764.24
+        "refunds_booked": 7272.54
       },
       "accrued": {
         "retainers": 12634.62,
@@ -4350,9 +4277,9 @@
       "total_spend": 39525.32,
       "asp_gross": 260.9,
       "refund_actual": {
-        "booked_pct": 16.95,
+        "booked_pct": 18.22,
         "is_mature": false,
-        "pct_of_eventual_visible": 92.3,
+        "pct_of_eventual_visible": 95.5,
         "provenance": "incomplete"
       },
       "refund_bases_available": {
@@ -4373,7 +4300,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -4391,10 +4318,10 @@
       "start": "2026-06-15",
       "end": "2026-06-21",
       "label": "Jun 15\u201321",
-      "age_weeks": 8,
+      "age_weeks": 9,
       "measured": {
-        "gross_bookings": 51193.54,
-        "units": 347,
+        "gross_bookings": 51559.45,
+        "units": 349,
         "orders": 251,
         "new_customers": 227,
         "ad_spend": 20228.86,
@@ -4403,7 +4330,7 @@
           "google": 3873.37,
           "impact": 339.64
         },
-        "refunds_booked": 7115.49
+        "refunds_booked": 8526.91
       },
       "accrued": {
         "retainers": 12634.62,
@@ -4421,11 +4348,11 @@
       },
       "cac": 154.94,
       "total_spend": 35171.17,
-      "asp_gross": 225.52,
+      "asp_gross": 227.13,
       "refund_actual": {
-        "booked_pct": 13.9,
+        "booked_pct": 16.54,
         "is_mature": false,
-        "pct_of_eventual_visible": 89.4,
+        "pct_of_eventual_visible": 92.0,
         "provenance": "incomplete"
       },
       "refund_bases_available": {
@@ -4446,7 +4373,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -4464,10 +4391,10 @@
       "start": "2026-06-22",
       "end": "2026-06-28",
       "label": "Jun 22\u201328",
-      "age_weeks": 7,
+      "age_weeks": 8,
       "measured": {
-        "gross_bookings": 38236.78,
-        "units": 190,
+        "gross_bookings": 38490.93,
+        "units": 191,
         "orders": 182,
         "new_customers": 164,
         "ad_spend": 19331.15,
@@ -4476,7 +4403,7 @@
           "google": 3225.5,
           "impact": 184.3
         },
-        "refunds_booked": 6281.42
+        "refunds_booked": 7077.42
       },
       "accrued": {
         "retainers": 12634.62,
@@ -4494,11 +4421,11 @@
       },
       "cac": 208.98,
       "total_spend": 34273.46,
-      "asp_gross": 233.15,
+      "asp_gross": 234.7,
       "refund_actual": {
-        "booked_pct": 16.43,
+        "booked_pct": 18.39,
         "is_mature": false,
-        "pct_of_eventual_visible": 79.6,
+        "pct_of_eventual_visible": 88.9,
         "provenance": "incomplete"
       },
       "refund_bases_available": {
@@ -4519,7 +4446,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -4537,7 +4464,7 @@
       "start": "2026-06-29",
       "end": "2026-07-05",
       "label": "Jun 29\u2013Jul 5",
-      "age_weeks": 6,
+      "age_weeks": 7,
       "measured": {
         "gross_bookings": 36759.6,
         "units": 179,
@@ -4549,7 +4476,7 @@
           "google": 2622.01,
           "impact": 319.29
         },
-        "refunds_booked": 6671.12
+        "refunds_booked": 7567.12
       },
       "accrued": {
         "retainers": 12634.62,
@@ -4569,9 +4496,9 @@
       "total_spend": 34677.87,
       "asp_gross": 228.32,
       "refund_actual": {
-        "booked_pct": 18.15,
+        "booked_pct": 20.59,
         "is_mature": false,
-        "pct_of_eventual_visible": 67.7,
+        "pct_of_eventual_visible": 79.0,
         "provenance": "incomplete"
       },
       "refund_bases_available": {
@@ -4592,7 +4519,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -4610,7 +4537,7 @@
       "start": "2026-07-06",
       "end": "2026-07-12",
       "label": "Jul 6\u201312",
-      "age_weeks": 5,
+      "age_weeks": 6,
       "measured": {
         "gross_bookings": 37035.57,
         "units": 198,
@@ -4622,7 +4549,7 @@
           "google": 3118.29,
           "impact": 417.02
         },
-        "refunds_booked": 6322.09
+        "refunds_booked": 8130.51
       },
       "accrued": {
         "retainers": 12634.62,
@@ -4642,7 +4569,80 @@
       "total_spend": 34987.76,
       "asp_gross": 216.58,
       "refund_actual": {
-        "booked_pct": 17.07,
+        "booked_pct": 21.95,
+        "is_mature": false,
+        "pct_of_eventual_visible": 67.2,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.38,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 20045.45,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 183,
+        "tw_ncpa_do_not_use": 109.5379574876584,
+        "tw_in_week_refund_ratio_artifact": 29.945523239822766
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-07-13",
+      "end": "2026-07-19",
+      "label": "Jul 13\u201319",
+      "age_weeks": 5,
+      "measured": {
+        "gross_bookings": 34626.02,
+        "units": 180,
+        "orders": 173,
+        "new_customers": 158,
+        "ad_spend": 20140.48,
+        "ad_spend_by_line": {
+          "meta_core": 16502.25,
+          "google": 3190.48,
+          "impact": 447.75
+        },
+        "refunds_booked": 6231.63
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 222.04,
+      "total_spend": 35082.79,
+      "asp_gross": 219.15,
+      "refund_actual": {
+        "booked_pct": 18.0,
         "is_mature": false,
         "pct_of_eventual_visible": 55.3,
         "provenance": "incomplete"
@@ -4665,80 +4665,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
-          "provenance": "measured"
-        }
-      },
-      "triple_whale_cross_check": {
-        "blendedAds": 20045.45,
-        "custom_spend_suspected": false,
-        "unrecognised_blended_delta": 0.0,
-        "tw_new_customer_orders": 183,
-        "tw_ncpa_do_not_use": 109.5379574876584,
-        "tw_in_week_refund_ratio_artifact": 29.945523239822766
-      }
-    },
-    {
-      "period_type": "week",
-      "start": "2026-07-13",
-      "end": "2026-07-19",
-      "label": "Jul 13\u201319",
-      "age_weeks": 4,
-      "measured": {
-        "gross_bookings": 34626.02,
-        "units": 180,
-        "orders": 173,
-        "new_customers": 158,
-        "ad_spend": 20140.48,
-        "ad_spend_by_line": {
-          "meta_core": 16502.25,
-          "google": 3190.48,
-          "impact": 447.75
-        },
-        "refunds_booked": 3812.0
-      },
-      "accrued": {
-        "retainers": 12634.62,
-        "variable": 2307.69,
-        "method": "x12_over_52"
-      },
-      "assumed": {
-        "ltv_consumables_total": 159.6,
-        "consumables_per_month": 19,
-        "active_months": 12,
-        "attach_rate_pct": 70,
-        "repeat_hardware": 0,
-        "_provenance": "assumed",
-        "_warning": "Every input invented. Never present as measurement."
-      },
-      "cac": 222.04,
-      "total_spend": 35082.79,
-      "asp_gross": 219.15,
-      "refund_actual": {
-        "booked_pct": 11.01,
-        "is_mature": false,
-        "pct_of_eventual_visible": 38.7,
-        "provenance": "incomplete"
-      },
-      "refund_bases_available": {
-        "target": {
-          "label": "Target",
-          "rate_pct": 10.0,
-          "provenance": "assumed"
-        },
-        "planning": {
-          "label": "Planning",
-          "rate_pct": 20.0,
-          "provenance": "assumed"
-        },
-        "bad": {
-          "label": "Bad scenario",
-          "rate_pct": 30.0,
-          "provenance": "assumed"
-        },
-        "measured": {
-          "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -4756,7 +4683,7 @@
       "start": "2026-07-20",
       "end": "2026-07-26",
       "label": "Jul 20\u201326",
-      "age_weeks": 3,
+      "age_weeks": 4,
       "measured": {
         "gross_bookings": 35307.93,
         "units": 154,
@@ -4768,7 +4695,7 @@
           "google": 2968.68,
           "impact": 321.16
         },
-        "refunds_booked": 2552.58
+        "refunds_booked": 3150.58
       },
       "accrued": {
         "retainers": 12634.62,
@@ -4788,9 +4715,9 @@
       "total_spend": 32038.94,
       "asp_gross": 261.54,
       "refund_actual": {
-        "booked_pct": 7.23,
+        "booked_pct": 8.92,
         "is_mature": false,
-        "pct_of_eventual_visible": 21.4,
+        "pct_of_eventual_visible": 36.9,
         "provenance": "incomplete"
       },
       "refund_bases_available": {
@@ -4811,7 +4738,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -4829,7 +4756,7 @@
       "start": "2026-07-27",
       "end": "2026-08-02",
       "label": "Jul 27\u2013Aug 2",
-      "age_weeks": 2,
+      "age_weeks": 3,
       "measured": {
         "gross_bookings": 36129.65,
         "units": 252,
@@ -4841,7 +4768,7 @@
           "google": 2961.11,
           "impact": 338.33
         },
-        "refunds_booked": 1405.4
+        "refunds_booked": 2928.47
       },
       "accrued": {
         "retainers": 12634.62,
@@ -4861,9 +4788,9 @@
       "total_spend": 32011.45,
       "asp_gross": 258.07,
       "refund_actual": {
-        "booked_pct": 3.89,
+        "booked_pct": 8.11,
         "is_mature": false,
-        "pct_of_eventual_visible": 9.0,
+        "pct_of_eventual_visible": 20.5,
         "provenance": "incomplete"
       },
       "refund_bases_available": {
@@ -4884,7 +4811,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -4902,7 +4829,7 @@
       "start": "2026-08-03",
       "end": "2026-08-09",
       "label": "Aug 3\u20139",
-      "age_weeks": 1,
+      "age_weeks": 2,
       "measured": {
         "gross_bookings": 32748.3,
         "units": 145,
@@ -4914,7 +4841,7 @@
           "google": 3148.32,
           "impact": 269.84
         },
-        "refunds_booked": 1205.48
+        "refunds_booked": 2433.11
       },
       "accrued": {
         "retainers": 12634.62,
@@ -4934,9 +4861,9 @@
       "total_spend": 31249.02,
       "asp_gross": 282.31,
       "refund_actual": {
-        "booked_pct": 3.68,
+        "booked_pct": 7.43,
         "is_mature": false,
-        "pct_of_eventual_visible": 3.8,
+        "pct_of_eventual_visible": 8.6,
         "provenance": "incomplete"
       },
       "refund_bases_available": {
@@ -4957,7 +4884,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -4975,7 +4902,7 @@
       "start": "2026-08-10",
       "end": "2026-08-16",
       "label": "Aug 10\u201316",
-      "age_weeks": 0,
+      "age_weeks": 1,
       "measured": {
         "gross_bookings": 34918.28,
         "units": 158,
@@ -4987,7 +4914,7 @@
           "google": 3065.72,
           "impact": 171.62
         },
-        "refunds_booked": 299.0
+        "refunds_booked": 747.5
       },
       "accrued": {
         "retainers": 12634.62,
@@ -5007,9 +4934,9 @@
       "total_spend": 31187.12,
       "asp_gross": 281.6,
       "refund_actual": {
-        "booked_pct": 0.86,
+        "booked_pct": 2.14,
         "is_mature": false,
-        "pct_of_eventual_visible": 2.3,
+        "pct_of_eventual_visible": 3.5,
         "provenance": "incomplete"
       },
       "refund_bases_available": {
@@ -5030,7 +4957,7 @@
         },
         "measured": {
           "label": "Measured",
-          "rate_pct": 23.41,
+          "rate_pct": 23.38,
           "provenance": "measured"
         }
       },
@@ -5042,57 +4969,130 @@
         "tw_ncpa_do_not_use": 133.15416359812878,
         "tw_in_week_refund_ratio_artifact": 48.72084926131717
       }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-08-17",
+      "end": "2026-08-23",
+      "label": "Aug 17\u201323",
+      "age_weeks": 0,
+      "measured": {
+        "gross_bookings": 35161.25,
+        "units": 153,
+        "orders": 147,
+        "new_customers": 125,
+        "ad_spend": 15872.12,
+        "ad_spend_by_line": {
+          "meta_core": 12497.69,
+          "google": 3047.15,
+          "impact": 327.28
+        },
+        "refunds_booked": 280.2
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 246.52,
+      "total_spend": 30814.43,
+      "asp_gross": 281.29,
+      "refund_actual": {
+        "booked_pct": 0.8,
+        "is_mature": false,
+        "pct_of_eventual_visible": 2.2,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.38,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 15872.12,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 116,
+        "tw_ncpa_do_not_use": 136.8285883034515,
+        "tw_in_week_refund_ratio_artifact": 41.80600875991914
+      }
     }
   ],
   "refund_curve": {
-    "final_rate_pct": 23.41,
-    "cohorts": 17,
-    "gross": 418868.85,
+    "final_rate_pct": 23.38,
+    "cohorts": 18,
+    "gross": 453015.79,
     "range": [
       "2026-01-05",
-      "2026-04-27"
+      "2026-05-04"
     ],
     "cum_pct_of_gross": [
-      0.546,
-      0.882,
-      2.104,
-      5.001,
-      9.054,
-      12.941,
-      15.844,
-      18.627,
-      20.928,
-      21.614,
-      22.339,
-      22.68,
-      22.854,
-      22.89,
-      23.178,
-      23.264,
-      23.325
+      0.505,
+      0.815,
+      2.001,
+      4.789,
+      8.638,
+      12.928,
+      15.72,
+      18.481,
+      20.776,
+      21.513,
+      22.331,
+      22.647,
+      22.808,
+      22.841,
+      23.108,
+      23.243,
+      23.299
     ],
     "pct_of_eventual_visible": [
-      2.3,
-      3.8,
-      9.0,
-      21.4,
-      38.7,
+      2.2,
+      3.5,
+      8.6,
+      20.5,
+      36.9,
       55.3,
-      67.7,
-      79.6,
-      89.4,
-      92.3,
-      95.4,
+      67.2,
+      79.0,
+      88.9,
+      92.0,
+      95.5,
       96.9,
       97.6,
-      97.8,
-      99.0,
+      97.7,
+      98.8,
       99.4,
-      99.6
+      99.7
     ],
     "maturity_weeks": 16,
     "provenance": "measured",
-    "method": "Refunds matched to their order's acquisition week; 17 cohorts aged >=16w from 2026-01-01 onward."
+    "method": "Refunds matched to their order's acquisition week; 18 cohorts aged >=16w from 2026-01-01 onward."
   },
   "config": {
     "_comment": "Editable cost inputs and parameters. In Phase 3 this is the file the Action reads (mirrored from the shared Sheet). Every cost line carries a provenance kind: 'ad' = measured from Triple Whale, plan figure here is budget only; 'retainer' = monthly, accrued into weeks; 'variable' = lumpy, set per week.",
@@ -5274,7 +5274,7 @@
       "Superfiliate ($599/mo), Impact platform fee ($20/mo) and social media platform ($200/mo) appear in the 2026 Budget sheet but not in the current spend table. $819/mo unaccounted.",
       "No TikTok spend as of 2026-08-18 (confirmed by Caitlin). Toast-TikTok retainer folded into the single $10,000 Toast line."
     ],
-    "cost_table_effective_from": "2026-08-01",
+    "cost_table_effective_from": "2026-07-01",
     "_cost_table_effective_from_note": "The date this cost table took effect. NEEDS CONFIRMATION from Caitlin. Cost lines change over time \u2014 the earlier budget-sheet structure totalled $67,069/mo of retainers with Toast split across four lines, versus $54,750 now. Weeks before this date are computed on a cost basis that was not actually in force, so their CAC is approximate and the dashboard says so. Per-line effective_from/effective_to is the proper fix; the schema honours those fields if present.",
     "cogs": {
       "_comment": "Out of scope this iteration by decision. Room reserved so contribution-margin/CAC is an addition, not a migration.",
@@ -5286,14 +5286,14 @@
     "sources": {
       "shopify": {
         "ok": 1,
-        "orders": 6368
+        "orders": 6493
       },
       "triple_whale": {
         "ok": 39,
         "fail": 0
       }
     },
-    "generated_at": "2026-08-18"
+    "generated_at": "2026-08-24"
   },
   "shopify_monthly_new_customers": {
     "2025-11": 40,

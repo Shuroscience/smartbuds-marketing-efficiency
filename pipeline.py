@@ -344,9 +344,12 @@ def ranges(kind, n):
     return out
 
 def main():
+    global cost_lines
     os.makedirs(DATA, exist_ok=True)
     nweeks  = int(os.environ.get("WEEKS", "30"))
     nmonths = int(os.environ.get("MONTHS", "9"))
+    print("Loading cost lines...", file=sys.stderr)
+    cost_lines = load_cost_lines()
     print("Loading Shopify orders...", file=sys.stderr)
     book = Book(load_orders())
     curve = refund_curve(book)
