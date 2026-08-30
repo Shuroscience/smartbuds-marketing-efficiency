@@ -25,20 +25,16 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
 
-      - name: Install dependencies
-        run: pip install gspread
-
       - name: Run pipeline
         env:
           TRIPLEWHALE_API_KEY: ${{ secrets.TRIPLEWHALE_API_KEY }}
           SHOPIFY_DOMAIN:      ${{ secrets.SHOPIFY_DOMAIN }}
           SHOPIFY_TOKEN:       ${{ secrets.SHOPIFY_TOKEN }}
-          # Cost source: read from public Google Sheet
-          COST_SOURCE:         sheet
-          SHEET_ID:            ${{ secrets.SHEET_ID }}
-          SHEET_TAB:           "Cost inputs"
+          # Cost source: use committed config.json (Google Sheet synced manually)
+          COST_SOURCE:         config
           REFRESH_ORDERS: "1"
-          WEEKS: "12"
+          WEEKS: "30"
+          MONTHS: "9"
           PYTHONUNBUFFERED: "1"
         run: python3 pipeline.py
 
