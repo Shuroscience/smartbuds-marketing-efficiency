@@ -1,21 +1,21 @@
 {
   "period_type": "week",
-  "start": "2026-03-16",
-  "end": "2026-03-22",
-  "label": "Mar 16\u201322",
-  "age_weeks": 25,
+  "start": "2026-09-07",
+  "end": "2026-09-13",
+  "label": "Sep 7\u201313",
+  "age_weeks": 0,
   "measured": {
-    "gross_bookings": 22197.27,
-    "units": 358,
-    "orders": 207,
-    "new_customers": 74,
-    "ad_spend": 8849.83,
+    "gross_bookings": 0.0,
+    "units": 0,
+    "orders": 0,
+    "new_customers": 0,
+    "ad_spend": 11412.18,
     "ad_spend_by_line": {
-      "meta_core": 4438.9,
-      "google": 4332.78,
-      "impact": 78.15
+      "meta_core": 8127.23,
+      "google": 2600.57,
+      "impact": 684.38
     },
-    "refunds_booked": 3237.17
+    "refunds_booked": 0.0
   },
   "accrued": {
     "retainers": 12634.62,
@@ -31,14 +31,14 @@
     "_provenance": "assumed",
     "_warning": "Every input invented. Never present as measurement."
   },
-  "cac": 321.52,
-  "total_spend": 23792.14,
-  "asp_gross": 299.96,
+  "cac": null,
+  "total_spend": 26354.49,
+  "asp_gross": null,
   "refund_actual": {
-    "booked_pct": 14.58,
-    "is_mature": true,
-    "pct_of_eventual_visible": 99.7,
-    "provenance": "measured"
+    "booked_pct": null,
+    "is_mature": false,
+    "pct_of_eventual_visible": 2.2,
+    "provenance": "incomplete"
   },
   "refund_bases_available": {
     "target": {
@@ -63,11 +63,11 @@
     }
   },
   "triple_whale_cross_check": {
-    "blendedAds": 9785.77,
-    "custom_spend_suspected": true,
-    "unrecognised_blended_delta": 935.94,
-    "tw_new_customer_orders": 79,
-    "tw_ncpa_do_not_use": 123.87050612235466,
-    "tw_in_week_refund_ratio_artifact": 14.08594974558537
+    "blendedAds": 11412.18,
+    "custom_spend_suspected": false,
+    "unrecognised_blended_delta": 0.0,
+    "tw_new_customer_orders": 105,
+    "tw_ncpa_do_not_use": 108.6874431148881,
+    "tw_in_week_refund_ratio_artifact": 13.623454941758524
   }
 }

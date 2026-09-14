@@ -3,7 +3,7 @@
   "start": "2026-04-06",
   "end": "2026-04-12",
   "label": "Apr 6\u201312",
-  "age_weeks": 19,
+  "age_weeks": 22,
   "measured": {
     "gross_bookings": 21187.8,
     "units": 573,
@@ -58,7 +58,7 @@
     },
     "measured": {
       "label": "Measured",
-      "rate_pct": 23.38,
+      "rate_pct": 23.87,
       "provenance": "measured"
     }
   },
