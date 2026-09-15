@@ -1,0 +1,5309 @@
+{
+  "periods": {
+    "week": [
+      {
+        "period_type": "week",
+        "start": "2026-02-16",
+        "end": "2026-02-22",
+        "label": "Feb 16\u201322",
+        "age_weeks": 29,
+        "measured": {
+          "gross_bookings": 40128.11,
+          "units": 389,
+          "orders": 159,
+          "new_customers": 147,
+          "ad_spend": 6363.29,
+          "ad_spend_by_line": {
+            "meta_core": 3797.97,
+            "google": 2344.95,
+            "impact": 220.37
+          },
+          "refunds_booked": 9767.23
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 144.94,
+        "total_spend": 21305.6,
+        "asp_gross": 272.98,
+        "refund_actual": {
+          "booked_pct": 24.34,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 6857.31,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 494.02,
+          "tw_new_customer_orders": 157,
+          "tw_ncpa_do_not_use": 43.67711751611464,
+          "tw_in_week_refund_ratio_artifact": 2.3393521544705234
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-02-23",
+        "end": "2026-03-01",
+        "label": "Feb 23\u2013Mar 1",
+        "age_weeks": 28,
+        "measured": {
+          "gross_bookings": 35369.01,
+          "units": 350,
+          "orders": 150,
+          "new_customers": 136,
+          "ad_spend": 9653.04,
+          "ad_spend_by_line": {
+            "meta_core": 6306.51,
+            "google": 3274.31,
+            "impact": 72.22
+          },
+          "refunds_booked": 7917.47
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 180.85,
+        "total_spend": 24595.35,
+        "asp_gross": 260.07,
+        "refund_actual": {
+          "booked_pct": 22.39,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 10426.6,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 773.56,
+          "tw_new_customer_orders": 133,
+          "tw_ncpa_do_not_use": 78.39546010479387,
+          "tw_in_week_refund_ratio_artifact": 2.272305074638168
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-03-02",
+        "end": "2026-03-08",
+        "label": "Mar 2\u20138",
+        "age_weeks": 27,
+        "measured": {
+          "gross_bookings": 34677.79,
+          "units": 400,
+          "orders": 157,
+          "new_customers": 140,
+          "ad_spend": 25099.74,
+          "ad_spend_by_line": {
+            "meta_core": 16877.87,
+            "google": 8017.88,
+            "impact": 203.99
+          },
+          "refunds_booked": 6869.45
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 286.01,
+        "total_spend": 40042.05,
+        "asp_gross": 247.7,
+        "refund_actual": {
+          "booked_pct": 19.81,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 25942.01,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 842.27,
+          "tw_new_customer_orders": 147,
+          "tw_ncpa_do_not_use": 176.47623144742735,
+          "tw_in_week_refund_ratio_artifact": 9.39539233392663
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-03-09",
+        "end": "2026-03-15",
+        "label": "Mar 9\u201315",
+        "age_weeks": 26,
+        "measured": {
+          "gross_bookings": 26433.62,
+          "units": 730,
+          "orders": 490,
+          "new_customers": 117,
+          "ad_spend": 24191.68,
+          "ad_spend_by_line": {
+            "meta_core": 10830.41,
+            "google": 13228.05,
+            "impact": 133.22
+          },
+          "refunds_booked": 7442.84
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 334.48,
+        "total_spend": 39133.99,
+        "asp_gross": 225.93,
+        "refund_actual": {
+          "booked_pct": 28.16,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 24960.97,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 769.29,
+          "tw_new_customer_orders": 121,
+          "tw_ncpa_do_not_use": 206.28900898939136,
+          "tw_in_week_refund_ratio_artifact": 70.25077350266095
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-03-16",
+        "end": "2026-03-22",
+        "label": "Mar 16\u201322",
+        "age_weeks": 25,
+        "measured": {
+          "gross_bookings": 22523.46,
+          "units": 359,
+          "orders": 207,
+          "new_customers": 74,
+          "ad_spend": 8849.83,
+          "ad_spend_by_line": {
+            "meta_core": 4438.9,
+            "google": 4332.78,
+            "impact": 78.15
+          },
+          "refunds_booked": 3237.27
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 321.52,
+        "total_spend": 23792.14,
+        "asp_gross": 304.37,
+        "refund_actual": {
+          "booked_pct": 14.37,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 9785.77,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 935.94,
+          "tw_new_customer_orders": 79,
+          "tw_ncpa_do_not_use": 123.87050612235466,
+          "tw_in_week_refund_ratio_artifact": 14.08594974558537
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-03-23",
+        "end": "2026-03-29",
+        "label": "Mar 23\u201329",
+        "age_weeks": 24,
+        "measured": {
+          "gross_bookings": 19758.12,
+          "units": 264,
+          "orders": 174,
+          "new_customers": 69,
+          "ad_spend": 9787.67,
+          "ad_spend_by_line": {
+            "meta_core": 4701.86,
+            "google": 4882.49,
+            "impact": 203.32
+          },
+          "refunds_booked": 5474.97
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 358.41,
+        "total_spend": 24729.98,
+        "asp_gross": 286.35,
+        "refund_actual": {
+          "booked_pct": 27.71,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 10908.62,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 1120.95,
+          "tw_new_customer_orders": 62,
+          "tw_ncpa_do_not_use": 175.94542840555792,
+          "tw_in_week_refund_ratio_artifact": 83.57080459975732
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-03-30",
+        "end": "2026-04-05",
+        "label": "Mar 30\u2013Apr 5",
+        "age_weeks": 23,
+        "measured": {
+          "gross_bookings": 21191.94,
+          "units": 323,
+          "orders": 193,
+          "new_customers": 68,
+          "ad_spend": 9215.02,
+          "ad_spend_by_line": {
+            "meta_core": 5324.11,
+            "google": 3528.13,
+            "impact": 362.78
+          },
+          "refunds_booked": 5485.45
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 355.25,
+        "total_spend": 24157.33,
+        "asp_gross": 311.65,
+        "refund_actual": {
+          "booked_pct": 25.88,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 9780.24,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 565.22,
+          "tw_new_customer_orders": 70,
+          "tw_ncpa_do_not_use": 139.71773768740573,
+          "tw_in_week_refund_ratio_artifact": 8.1737985359607
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-04-06",
+        "end": "2026-04-12",
+        "label": "Apr 6\u201312",
+        "age_weeks": 22,
+        "measured": {
+          "gross_bookings": 21436.8,
+          "units": 574,
+          "orders": 401,
+          "new_customers": 72,
+          "ad_spend": 8867.03,
+          "ad_spend_by_line": {
+            "meta_core": 6876.77,
+            "google": 1678.91,
+            "impact": 311.35
+          },
+          "refunds_booked": 5211.55
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 330.69,
+        "total_spend": 23809.34,
+        "asp_gross": 297.73,
+        "refund_actual": {
+          "booked_pct": 24.31,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 9165.11,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 298.08,
+          "tw_new_customer_orders": 74,
+          "tw_ncpa_do_not_use": 123.85282481079166,
+          "tw_in_week_refund_ratio_artifact": 81.46483296442767
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-04-13",
+        "end": "2026-04-19",
+        "label": "Apr 13\u201319",
+        "age_weeks": 21,
+        "measured": {
+          "gross_bookings": 26963.43,
+          "units": 463,
+          "orders": 324,
+          "new_customers": 96,
+          "ad_spend": 10163.23,
+          "ad_spend_by_line": {
+            "meta_core": 8624.73,
+            "google": 1214.63,
+            "impact": 323.87
+          },
+          "refunds_booked": 5881.41
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 261.52,
+        "total_spend": 25105.54,
+        "asp_gross": 280.87,
+        "refund_actual": {
+          "booked_pct": 21.81,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 10509.96,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 346.73,
+          "tw_new_customer_orders": 83,
+          "tw_ncpa_do_not_use": 126.62606182847037,
+          "tw_in_week_refund_ratio_artifact": 22.97981687464058
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-04-20",
+        "end": "2026-04-26",
+        "label": "Apr 20\u201326",
+        "age_weeks": 20,
+        "measured": {
+          "gross_bookings": 20764.88,
+          "units": 375,
+          "orders": 198,
+          "new_customers": 67,
+          "ad_spend": 17013.12,
+          "ad_spend_by_line": {
+            "meta_core": 14308.42,
+            "google": 2515.11,
+            "impact": 189.59
+          },
+          "refunds_booked": 5690.15
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 476.95,
+        "total_spend": 31955.43,
+        "asp_gross": 309.92,
+        "refund_actual": {
+          "booked_pct": 27.4,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 17372.26,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 359.14,
+          "tw_new_customer_orders": 81,
+          "tw_ncpa_do_not_use": 214.4723717684823,
+          "tw_in_week_refund_ratio_artifact": 30.556897975381975
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-04-27",
+        "end": "2026-05-03",
+        "label": "Apr 27\u2013May 3",
+        "age_weeks": 19,
+        "measured": {
+          "gross_bookings": 17971.36,
+          "units": 266,
+          "orders": 196,
+          "new_customers": 71,
+          "ad_spend": 11061.04,
+          "ad_spend_by_line": {
+            "meta_core": 9896.51,
+            "google": 960.59,
+            "impact": 203.94
+          },
+          "refunds_booked": 4912.53
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 366.24,
+        "total_spend": 26003.35,
+        "asp_gross": 253.12,
+        "refund_actual": {
+          "booked_pct": 27.34,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 11401.5,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 340.46,
+          "tw_new_customer_orders": 63,
+          "tw_ncpa_do_not_use": 180.97621582826926,
+          "tw_in_week_refund_ratio_artifact": 2.434898503178183
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-05-04",
+        "end": "2026-05-10",
+        "label": "May 4\u201310",
+        "age_weeks": 18,
+        "measured": {
+          "gross_bookings": 34345.94,
+          "units": 392,
+          "orders": 182,
+          "new_customers": 140,
+          "ad_spend": 17671.89,
+          "ad_spend_by_line": {
+            "meta_core": 15779.67,
+            "google": 1764.87,
+            "impact": 127.35
+          },
+          "refunds_booked": 7595.91
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 232.96,
+        "total_spend": 32614.2,
+        "asp_gross": 245.33,
+        "refund_actual": {
+          "booked_pct": 22.12,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 18590.32,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 918.43,
+          "tw_new_customer_orders": 127,
+          "tw_ncpa_do_not_use": 146.3804599780912,
+          "tw_in_week_refund_ratio_artifact": 4.6857412725129715
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-05-11",
+        "end": "2026-05-17",
+        "label": "May 11\u201317",
+        "age_weeks": 17,
+        "measured": {
+          "gross_bookings": 36264.22,
+          "units": 185,
+          "orders": 174,
+          "new_customers": 150,
+          "ad_spend": 16118.8,
+          "ad_spend_by_line": {
+            "meta_core": 13687.98,
+            "google": 2154.27,
+            "impact": 276.55
+          },
+          "refunds_booked": 8201.61
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 207.07,
+        "total_spend": 31061.11,
+        "asp_gross": 241.76,
+        "refund_actual": {
+          "booked_pct": 22.62,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 16301.03,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 182.23,
+          "tw_new_customer_orders": 157,
+          "tw_ncpa_do_not_use": 103.82818641737815,
+          "tw_in_week_refund_ratio_artifact": 1.2740880676279807
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-05-18",
+        "end": "2026-05-24",
+        "label": "May 18\u201324",
+        "age_weeks": 16,
+        "measured": {
+          "gross_bookings": 44233.26,
+          "units": 232,
+          "orders": 218,
+          "new_customers": 181,
+          "ad_spend": 19472.08,
+          "ad_spend_by_line": {
+            "meta_core": 16243.43,
+            "google": 2833.33,
+            "impact": 395.32
+          },
+          "refunds_booked": 10425.61
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 190.13,
+        "total_spend": 34414.39,
+        "asp_gross": 244.38,
+        "refund_actual": {
+          "booked_pct": 23.57,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 19472.08,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 180,
+          "tw_ncpa_do_not_use": 108.1782071884411,
+          "tw_in_week_refund_ratio_artifact": 9.057472313036072
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-05-25",
+        "end": "2026-05-31",
+        "label": "May 25\u201331",
+        "age_weeks": 15,
+        "measured": {
+          "gross_bookings": 41253.84,
+          "units": 219,
+          "orders": 211,
+          "new_customers": 163,
+          "ad_spend": 23255.6,
+          "ad_spend_by_line": {
+            "meta_core": 19603.64,
+            "google": 3347.99,
+            "impact": 303.97
+          },
+          "refunds_booked": 13148.41
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 234.34,
+        "total_spend": 38197.91,
+        "asp_gross": 253.09,
+        "refund_actual": {
+          "booked_pct": 31.87,
+          "is_mature": false,
+          "pct_of_eventual_visible": 99.2,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 23255.6,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 174,
+          "tw_ncpa_do_not_use": 133.6528539726853,
+          "tw_in_week_refund_ratio_artifact": 28.782341214550595
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-06-01",
+        "end": "2026-06-07",
+        "label": "Jun 1\u20137",
+        "age_weeks": 14,
+        "measured": {
+          "gross_bookings": 56588.0,
+          "units": 258,
+          "orders": 238,
+          "new_customers": 209,
+          "ad_spend": 29367.04,
+          "ad_spend_by_line": {
+            "meta_core": 25075.18,
+            "google": 3947.08,
+            "impact": 344.78
+          },
+          "refunds_booked": 15123.46
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 212.01,
+        "total_spend": 44309.35,
+        "asp_gross": 270.76,
+        "refund_actual": {
+          "booked_pct": 26.73,
+          "is_mature": false,
+          "pct_of_eventual_visible": 98.7,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 29367.04,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 189,
+          "tw_ncpa_do_not_use": 155.3811751051397,
+          "tw_in_week_refund_ratio_artifact": 10.185413586093642
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-06-08",
+        "end": "2026-06-14",
+        "label": "Jun 8\u201314",
+        "age_weeks": 13,
+        "measured": {
+          "gross_bookings": 39918.1,
+          "units": 183,
+          "orders": 177,
+          "new_customers": 153,
+          "ad_spend": 24583.01,
+          "ad_spend_by_line": {
+            "meta_core": 19755.04,
+            "google": 3963.14,
+            "impact": 864.83
+          },
+          "refunds_booked": 8659.54
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 258.34,
+        "total_spend": 39525.32,
+        "asp_gross": 260.9,
+        "refund_actual": {
+          "booked_pct": 21.69,
+          "is_mature": false,
+          "pct_of_eventual_visible": 97.6,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 24583.01,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 172,
+          "tw_ncpa_do_not_use": 142.92448203623036,
+          "tw_in_week_refund_ratio_artifact": 30.262200656419086
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-06-15",
+        "end": "2026-06-21",
+        "label": "Jun 15\u201321",
+        "age_weeks": 12,
+        "measured": {
+          "gross_bookings": 51559.45,
+          "units": 355,
+          "orders": 251,
+          "new_customers": 227,
+          "ad_spend": 20228.86,
+          "ad_spend_by_line": {
+            "meta_core": 16015.85,
+            "google": 3873.37,
+            "impact": 339.64
+          },
+          "refunds_booked": 10141.31
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 154.94,
+        "total_spend": 35171.17,
+        "asp_gross": 227.13,
+        "refund_actual": {
+          "booked_pct": 19.67,
+          "is_mature": false,
+          "pct_of_eventual_visible": 97.3,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 20228.86,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 207,
+          "tw_ncpa_do_not_use": 97.72395521258386,
+          "tw_in_week_refund_ratio_artifact": 21.71538151787228
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-06-22",
+        "end": "2026-06-28",
+        "label": "Jun 22\u201328",
+        "age_weeks": 11,
+        "measured": {
+          "gross_bookings": 38715.18,
+          "units": 192,
+          "orders": 182,
+          "new_customers": 164,
+          "ad_spend": 19331.15,
+          "ad_spend_by_line": {
+            "meta_core": 15921.35,
+            "google": 3225.5,
+            "impact": 184.3
+          },
+          "refunds_booked": 8518.12
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 208.98,
+        "total_spend": 34273.46,
+        "asp_gross": 236.07,
+        "refund_actual": {
+          "booked_pct": 22.0,
+          "is_mature": false,
+          "pct_of_eventual_visible": 96.3,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 19331.15,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 184,
+          "tw_ncpa_do_not_use": 105.06059667711024,
+          "tw_in_week_refund_ratio_artifact": 6.439500770054574
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-06-29",
+        "end": "2026-07-05",
+        "label": "Jun 29\u2013Jul 5",
+        "age_weeks": 10,
+        "measured": {
+          "gross_bookings": 36759.6,
+          "units": 179,
+          "orders": 169,
+          "new_customers": 161,
+          "ad_spend": 19735.56,
+          "ad_spend_by_line": {
+            "meta_core": 16794.26,
+            "google": 2622.01,
+            "impact": 319.29
+          },
+          "refunds_booked": 9036.63
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 215.39,
+        "total_spend": 34677.87,
+        "asp_gross": 228.32,
+        "refund_actual": {
+          "booked_pct": 24.58,
+          "is_mature": false,
+          "pct_of_eventual_visible": 94.7,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 19735.56,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 150,
+          "tw_ncpa_do_not_use": 131.5703836448615,
+          "tw_in_week_refund_ratio_artifact": 30.15991555971291
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-07-06",
+        "end": "2026-07-12",
+        "label": "Jul 6\u201312",
+        "age_weeks": 9,
+        "measured": {
+          "gross_bookings": 37261.45,
+          "units": 200,
+          "orders": 192,
+          "new_customers": 171,
+          "ad_spend": 20045.45,
+          "ad_spend_by_line": {
+            "meta_core": 16510.14,
+            "google": 3118.29,
+            "impact": 417.02
+          },
+          "refunds_booked": 8727.51
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 204.61,
+        "total_spend": 34987.76,
+        "asp_gross": 217.9,
+        "refund_actual": {
+          "booked_pct": 23.42,
+          "is_mature": false,
+          "pct_of_eventual_visible": 90.9,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 20045.45,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 183,
+          "tw_ncpa_do_not_use": 109.5379574876584,
+          "tw_in_week_refund_ratio_artifact": 29.945523239822766
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-07-13",
+        "end": "2026-07-19",
+        "label": "Jul 13\u201319",
+        "age_weeks": 8,
+        "measured": {
+          "gross_bookings": 34626.02,
+          "units": 180,
+          "orders": 173,
+          "new_customers": 158,
+          "ad_spend": 20140.48,
+          "ad_spend_by_line": {
+            "meta_core": 16502.25,
+            "google": 3190.48,
+            "impact": 447.75
+          },
+          "refunds_booked": 9063.34
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 222.04,
+        "total_spend": 35082.79,
+        "asp_gross": 219.15,
+        "refund_actual": {
+          "booked_pct": 26.17,
+          "is_mature": false,
+          "pct_of_eventual_visible": 87.6,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 20140.48,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 156,
+          "tw_ncpa_do_not_use": 129.1056585040015,
+          "tw_in_week_refund_ratio_artifact": 8.743720314776255
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-07-20",
+        "end": "2026-07-26",
+        "label": "Jul 20\u201326",
+        "age_weeks": 7,
+        "measured": {
+          "gross_bookings": 35307.93,
+          "units": 154,
+          "orders": 152,
+          "new_customers": 135,
+          "ad_spend": 17096.63,
+          "ad_spend_by_line": {
+            "meta_core": 13806.79,
+            "google": 2968.68,
+            "impact": 321.16
+          },
+          "refunds_booked": 5557.53
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 237.33,
+        "total_spend": 32038.94,
+        "asp_gross": 261.54,
+        "refund_actual": {
+          "booked_pct": 15.74,
+          "is_mature": false,
+          "pct_of_eventual_visible": 77.5,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 17096.63,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 140,
+          "tw_ncpa_do_not_use": 122.11879635406657,
+          "tw_in_week_refund_ratio_artifact": 26.93593001987527
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-07-27",
+        "end": "2026-08-02",
+        "label": "Jul 27\u2013Aug 2",
+        "age_weeks": 6,
+        "measured": {
+          "gross_bookings": 36129.65,
+          "units": 252,
+          "orders": 152,
+          "new_customers": 140,
+          "ad_spend": 17069.14,
+          "ad_spend_by_line": {
+            "meta_core": 13769.7,
+            "google": 2961.11,
+            "impact": 338.33
+          },
+          "refunds_booked": 4835.68
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 228.65,
+        "total_spend": 32011.45,
+        "asp_gross": 258.07,
+        "refund_actual": {
+          "booked_pct": 13.38,
+          "is_mature": false,
+          "pct_of_eventual_visible": 65.4,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 17069.14,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 141,
+          "tw_ncpa_do_not_use": 121.05770729084546,
+          "tw_in_week_refund_ratio_artifact": 30.334582262653335
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-08-03",
+        "end": "2026-08-09",
+        "label": "Aug 3\u20139",
+        "age_weeks": 5,
+        "measured": {
+          "gross_bookings": 32748.3,
+          "units": 145,
+          "orders": 143,
+          "new_customers": 116,
+          "ad_spend": 16306.71,
+          "ad_spend_by_line": {
+            "meta_core": 12888.55,
+            "google": 3148.32,
+            "impact": 269.84
+          },
+          "refunds_booked": 5278.67
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 269.39,
+        "total_spend": 31249.02,
+        "asp_gross": 282.31,
+        "refund_actual": {
+          "booked_pct": 16.12,
+          "is_mature": false,
+          "pct_of_eventual_visible": 52.6,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 16306.71,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 120,
+          "tw_ncpa_do_not_use": 135.8892195438811,
+          "tw_in_week_refund_ratio_artifact": 49.67817374326846
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-08-10",
+        "end": "2026-08-16",
+        "label": "Aug 10\u201316",
+        "age_weeks": 4,
+        "measured": {
+          "gross_bookings": 34918.28,
+          "units": 158,
+          "orders": 152,
+          "new_customers": 124,
+          "ad_spend": 16244.78,
+          "ad_spend_by_line": {
+            "meta_core": 13007.47,
+            "google": 3065.69,
+            "impact": 171.62
+          },
+          "refunds_booked": 2311.03
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 251.51,
+        "total_spend": 31187.09,
+        "asp_gross": 281.6,
+        "refund_actual": {
+          "booked_pct": 6.62,
+          "is_mature": false,
+          "pct_of_eventual_visible": 34.9,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 16244.78,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 122,
+          "tw_ncpa_do_not_use": 133.15392496067358,
+          "tw_in_week_refund_ratio_artifact": 48.72084926131717
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-08-17",
+        "end": "2026-08-23",
+        "label": "Aug 17\u201323",
+        "age_weeks": 3,
+        "measured": {
+          "gross_bookings": 35161.25,
+          "units": 153,
+          "orders": 147,
+          "new_customers": 125,
+          "ad_spend": 15872.12,
+          "ad_spend_by_line": {
+            "meta_core": 12497.69,
+            "google": 3047.15,
+            "impact": 327.28
+          },
+          "refunds_booked": 1805.1
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 246.52,
+        "total_spend": 30814.43,
+        "asp_gross": 281.29,
+        "refund_actual": {
+          "booked_pct": 5.13,
+          "is_mature": false,
+          "pct_of_eventual_visible": 19.3,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 15872.12,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 116,
+          "tw_ncpa_do_not_use": 136.8285883034515,
+          "tw_in_week_refund_ratio_artifact": 41.80600875991914
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-08-24",
+        "end": "2026-08-30",
+        "label": "Aug 24\u201330",
+        "age_weeks": 2,
+        "measured": {
+          "gross_bookings": 25653.04,
+          "units": 106,
+          "orders": 105,
+          "new_customers": 93,
+          "ad_spend": 14594.72,
+          "ad_spend_by_line": {
+            "meta_core": 11668.11,
+            "google": 2806.56,
+            "impact": 120.05
+          },
+          "refunds_booked": 1868.75
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 317.6,
+        "total_spend": 29537.03,
+        "asp_gross": 275.84,
+        "refund_actual": {
+          "booked_pct": 7.28,
+          "is_mature": false,
+          "pct_of_eventual_visible": 9.9,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 14594.72,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 94,
+          "tw_ncpa_do_not_use": 155.26296832301514,
+          "tw_in_week_refund_ratio_artifact": 18.724573294453318
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-08-31",
+        "end": "2026-09-06",
+        "label": "Aug 31\u2013Sep 6",
+        "age_weeks": 1,
+        "measured": {
+          "gross_bookings": 28235.36,
+          "units": 121,
+          "orders": 118,
+          "new_customers": 97,
+          "ad_spend": 15431.33,
+          "ad_spend_by_line": {
+            "meta_core": 11806.64,
+            "google": 3028.35,
+            "impact": 596.34
+          },
+          "refunds_booked": 1764.1
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 313.13,
+        "total_spend": 30373.64,
+        "asp_gross": 291.09,
+        "refund_actual": {
+          "booked_pct": 6.25,
+          "is_mature": false,
+          "pct_of_eventual_visible": 5.0,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 15431.33,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 101,
+          "tw_ncpa_do_not_use": 152.78540913747753,
+          "tw_in_week_refund_ratio_artifact": 58.230165855502534
+        }
+      },
+      {
+        "period_type": "week",
+        "start": "2026-09-07",
+        "end": "2026-09-13",
+        "label": "Sep 7\u201313",
+        "age_weeks": 0,
+        "measured": {
+          "gross_bookings": 27410.49,
+          "units": 117,
+          "orders": 114,
+          "new_customers": 96,
+          "ad_spend": 11412.18,
+          "ad_spend_by_line": {
+            "meta_core": 8127.23,
+            "google": 2600.57,
+            "impact": 684.38
+          },
+          "refunds_booked": 254.15
+        },
+        "accrued": {
+          "retainers": 12634.62,
+          "variable": 2307.69,
+          "method": "x12_over_52"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 274.53,
+        "total_spend": 26354.49,
+        "asp_gross": 285.53,
+        "refund_actual": {
+          "booked_pct": 0.93,
+          "is_mature": false,
+          "pct_of_eventual_visible": 2.1,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 11412.18,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 105,
+          "tw_ncpa_do_not_use": 108.6874431148881,
+          "tw_in_week_refund_ratio_artifact": 13.623454941758524
+        }
+      }
+    ],
+    "month": [
+      {
+        "period_type": "month",
+        "start": "2025-12-01",
+        "end": "2025-12-31",
+        "label": "Dec 2025",
+        "age_weeks": 36,
+        "measured": {
+          "gross_bookings": 27676.89,
+          "units": 229,
+          "orders": 93,
+          "new_customers": 88,
+          "ad_spend": 30804.23,
+          "ad_spend_by_line": {
+            "meta_core": 11789.5,
+            "google": 19014.73,
+            "impact": 0.0
+          },
+          "refunds_booked": 3376.75
+        },
+        "accrued": {
+          "retainers": 54750.0,
+          "variable": 10000.0,
+          "method": "none (monthly costs apply once)"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 1085.84,
+        "total_spend": 95554.23,
+        "asp_gross": 314.51,
+        "refund_actual": {
+          "booked_pct": 12.2,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 30804.23,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 85,
+          "tw_ncpa_do_not_use": 362.40275525974437,
+          "tw_in_week_refund_ratio_artifact": 89.91209599796781
+        }
+      },
+      {
+        "period_type": "month",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "label": "Jan 2026",
+        "age_weeks": 32,
+        "measured": {
+          "gross_bookings": 35973.62,
+          "units": 479,
+          "orders": 184,
+          "new_customers": 161,
+          "ad_spend": 10954.72,
+          "ad_spend_by_line": {
+            "meta_core": 7827.4,
+            "google": 3127.32,
+            "impact": 0.0
+          },
+          "refunds_booked": 6546.52
+        },
+        "accrued": {
+          "retainers": 54750.0,
+          "variable": 10000.0,
+          "method": "none (monthly costs apply once)"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 470.22,
+        "total_spend": 75704.72,
+        "asp_gross": 223.44,
+        "refund_actual": {
+          "booked_pct": 18.2,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 10954.72,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 160,
+          "tw_ncpa_do_not_use": 68.46698691198836,
+          "tw_in_week_refund_ratio_artifact": 11.38468582845963
+        }
+      },
+      {
+        "period_type": "month",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "label": "Feb 2026",
+        "age_weeks": 28,
+        "measured": {
+          "gross_bookings": 169024.48,
+          "units": 1665,
+          "orders": 687,
+          "new_customers": 648,
+          "ad_spend": 22292.51,
+          "ad_spend_by_line": {
+            "meta_core": 13035.86,
+            "google": 7857.25,
+            "impact": 1399.4
+          },
+          "refunds_booked": 41087.55
+        },
+        "accrued": {
+          "retainers": 54750.0,
+          "variable": 10000.0,
+          "method": "none (monthly costs apply once)"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 134.32,
+        "total_spend": 87042.51,
+        "asp_gross": 260.84,
+        "refund_actual": {
+          "booked_pct": 24.31,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 23697.74,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 1405.23,
+          "tw_new_customer_orders": 631,
+          "tw_ncpa_do_not_use": 37.55584732665077,
+          "tw_in_week_refund_ratio_artifact": 10.407665228869574
+        }
+      },
+      {
+        "period_type": "month",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "label": "Mar 2026",
+        "age_weeks": 23,
+        "measured": {
+          "gross_bookings": 115726.47,
+          "units": 1899,
+          "orders": 1105,
+          "new_customers": 441,
+          "ad_spend": 72586.79,
+          "ad_spend_by_line": {
+            "meta_core": 39354.32,
+            "google": 32476.25,
+            "impact": 756.22
+          },
+          "refunds_booked": 25266.97
+        },
+        "accrued": {
+          "retainers": 54750.0,
+          "variable": 10000.0,
+          "method": "none (monthly costs apply once)"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 311.42,
+        "total_spend": 137336.79,
+        "asp_gross": 262.42,
+        "refund_actual": {
+          "booked_pct": 21.83,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 76698.36,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 4111.57,
+          "tw_new_customer_orders": 448,
+          "tw_ncpa_do_not_use": 171.20169727895077,
+          "tw_in_week_refund_ratio_artifact": 34.89477654825681
+        }
+      },
+      {
+        "period_type": "month",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "label": "Apr 2026",
+        "age_weeks": 19,
+        "measured": {
+          "gross_bookings": 93701.12,
+          "units": 1853,
+          "orders": 1196,
+          "new_customers": 319,
+          "ad_spend": 49130.57,
+          "ad_spend_by_line": {
+            "meta_core": 39581.38,
+            "google": 8391.4,
+            "impact": 1157.79
+          },
+          "refunds_booked": 23757.43
+        },
+        "accrued": {
+          "retainers": 54750.0,
+          "variable": 10000.0,
+          "method": "none (monthly costs apply once)"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 356.99,
+        "total_spend": 113880.57,
+        "asp_gross": 293.73,
+        "refund_actual": {
+          "booked_pct": 25.35,
+          "is_mature": true,
+          "pct_of_eventual_visible": 99.5,
+          "provenance": "measured"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 50584.38,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 1453.81,
+          "tw_new_customer_orders": 323,
+          "tw_ncpa_do_not_use": 156.60799872438096,
+          "tw_in_week_refund_ratio_artifact": 34.076678463529696
+        }
+      },
+      {
+        "period_type": "month",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "label": "May 2026",
+        "age_weeks": 15,
+        "measured": {
+          "gross_bookings": 165307.11,
+          "units": 1107,
+          "orders": 851,
+          "new_customers": 672,
+          "ad_spend": 80875.64,
+          "ad_spend_by_line": {
+            "meta_core": 69392.54,
+            "google": 10283.71,
+            "impact": 1199.39
+          },
+          "refunds_booked": 41649.58
+        },
+        "accrued": {
+          "retainers": 54750.0,
+          "variable": 10000.0,
+          "method": "none (monthly costs apply once)"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 216.7,
+        "total_spend": 145625.64,
+        "asp_gross": 245.99,
+        "refund_actual": {
+          "booked_pct": 25.2,
+          "is_mature": false,
+          "pct_of_eventual_visible": 99.2,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 82120.53,
+          "custom_spend_suspected": true,
+          "unrecognised_blended_delta": 1244.89,
+          "tw_new_customer_orders": 666,
+          "tw_ncpa_do_not_use": 123.30410335960241,
+          "tw_in_week_refund_ratio_artifact": 11.49878767564958
+        }
+      },
+      {
+        "period_type": "month",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "label": "Jun 2026",
+        "age_weeks": 10,
+        "measured": {
+          "gross_bookings": 194375.7,
+          "units": 1019,
+          "orders": 879,
+          "new_customers": 784,
+          "ad_spend": 99884.31,
+          "ad_spend_by_line": {
+            "meta_core": 82303.9,
+            "google": 15768.37,
+            "impact": 1812.04
+          },
+          "refunds_booked": 43952.38
+        },
+        "accrued": {
+          "retainers": 54750.0,
+          "variable": 10000.0,
+          "method": "none (monthly costs apply once)"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 209.99,
+        "total_spend": 164634.31,
+        "asp_gross": 247.93,
+        "refund_actual": {
+          "booked_pct": 22.61,
+          "is_mature": false,
+          "pct_of_eventual_visible": 94.7,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 99884.31,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 791,
+          "tw_ncpa_do_not_use": 126.27599348154216,
+          "tw_in_week_refund_ratio_artifact": 16.591259769638718
+        }
+      },
+      {
+        "period_type": "month",
+        "start": "2026-07-01",
+        "end": "2026-07-31",
+        "label": "Jul 2026",
+        "age_weeks": 6,
+        "measured": {
+          "gross_bookings": 163247.42,
+          "units": 894,
+          "orders": 767,
+          "new_customers": 698,
+          "ad_spend": 82992.36,
+          "ad_spend_by_line": {
+            "meta_core": 68050.97,
+            "google": 13316.56,
+            "impact": 1624.83
+          },
+          "refunds_booked": 34502.37
+        },
+        "accrued": {
+          "retainers": 54750.0,
+          "variable": 10000.0,
+          "method": "none (monthly costs apply once)"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 211.67,
+        "total_spend": 147742.36,
+        "asp_gross": 233.88,
+        "refund_actual": {
+          "booked_pct": 21.14,
+          "is_mature": false,
+          "pct_of_eventual_visible": 65.4,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 82992.36,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 694,
+          "tw_ncpa_do_not_use": 119.58553765917341,
+          "tw_in_week_refund_ratio_artifact": 28.032660565374922
+        }
+      },
+      {
+        "period_type": "month",
+        "start": "2026-08-01",
+        "end": "2026-08-31",
+        "label": "Aug 2026",
+        "age_weeks": 2,
+        "measured": {
+          "gross_bookings": 141878.78,
+          "units": 621,
+          "orders": 606,
+          "new_customers": 509,
+          "ad_spend": 70232.75,
+          "ad_spend_by_line": {
+            "meta_core": 55918.41,
+            "google": 13247.2,
+            "impact": 1067.14
+          },
+          "refunds_booked": 12471.92
+        },
+        "accrued": {
+          "retainers": 54750.0,
+          "variable": 10000.0,
+          "method": "none (monthly costs apply once)"
+        },
+        "assumed": {
+          "ltv_consumables_total": 159.6,
+          "consumables_per_month": 19,
+          "active_months": 12,
+          "attach_rate_pct": 70,
+          "repeat_hardware": 0,
+          "_provenance": "assumed",
+          "_warning": "Every input invented. Never present as measurement."
+        },
+        "cac": 265.19,
+        "total_spend": 134982.75,
+        "asp_gross": 278.74,
+        "refund_actual": {
+          "booked_pct": 8.79,
+          "is_mature": false,
+          "pct_of_eventual_visible": 9.9,
+          "provenance": "incomplete"
+        },
+        "refund_bases_available": {
+          "target": {
+            "label": "Target",
+            "rate_pct": 10.0,
+            "provenance": "assumed"
+          },
+          "planning": {
+            "label": "Planning",
+            "rate_pct": 20.0,
+            "provenance": "assumed"
+          },
+          "bad": {
+            "label": "Bad scenario",
+            "rate_pct": 30.0,
+            "provenance": "assumed"
+          },
+          "measured": {
+            "label": "Measured",
+            "rate_pct": 23.94,
+            "provenance": "measured"
+          }
+        },
+        "triple_whale_cross_check": {
+          "blendedAds": 70232.75,
+          "custom_spend_suspected": false,
+          "unrecognised_blended_delta": 0.0,
+          "tw_new_customer_orders": 513,
+          "tw_ncpa_do_not_use": 136.9059509622554,
+          "tw_in_week_refund_ratio_artifact": 36.50961003984882
+        }
+      }
+    ]
+  },
+  "weeks": [
+    {
+      "period_type": "week",
+      "start": "2026-02-16",
+      "end": "2026-02-22",
+      "label": "Feb 16\u201322",
+      "age_weeks": 29,
+      "measured": {
+        "gross_bookings": 40128.11,
+        "units": 389,
+        "orders": 159,
+        "new_customers": 147,
+        "ad_spend": 6363.29,
+        "ad_spend_by_line": {
+          "meta_core": 3797.97,
+          "google": 2344.95,
+          "impact": 220.37
+        },
+        "refunds_booked": 9767.23
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 144.94,
+      "total_spend": 21305.6,
+      "asp_gross": 272.98,
+      "refund_actual": {
+        "booked_pct": 24.34,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 6857.31,
+        "custom_spend_suspected": true,
+        "unrecognised_blended_delta": 494.02,
+        "tw_new_customer_orders": 157,
+        "tw_ncpa_do_not_use": 43.67711751611464,
+        "tw_in_week_refund_ratio_artifact": 2.3393521544705234
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-02-23",
+      "end": "2026-03-01",
+      "label": "Feb 23\u2013Mar 1",
+      "age_weeks": 28,
+      "measured": {
+        "gross_bookings": 35369.01,
+        "units": 350,
+        "orders": 150,
+        "new_customers": 136,
+        "ad_spend": 9653.04,
+        "ad_spend_by_line": {
+          "meta_core": 6306.51,
+          "google": 3274.31,
+          "impact": 72.22
+        },
+        "refunds_booked": 7917.47
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 180.85,
+      "total_spend": 24595.35,
+      "asp_gross": 260.07,
+      "refund_actual": {
+        "booked_pct": 22.39,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 10426.6,
+        "custom_spend_suspected": true,
+        "unrecognised_blended_delta": 773.56,
+        "tw_new_customer_orders": 133,
+        "tw_ncpa_do_not_use": 78.39546010479387,
+        "tw_in_week_refund_ratio_artifact": 2.272305074638168
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-03-02",
+      "end": "2026-03-08",
+      "label": "Mar 2\u20138",
+      "age_weeks": 27,
+      "measured": {
+        "gross_bookings": 34677.79,
+        "units": 400,
+        "orders": 157,
+        "new_customers": 140,
+        "ad_spend": 25099.74,
+        "ad_spend_by_line": {
+          "meta_core": 16877.87,
+          "google": 8017.88,
+          "impact": 203.99
+        },
+        "refunds_booked": 6869.45
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 286.01,
+      "total_spend": 40042.05,
+      "asp_gross": 247.7,
+      "refund_actual": {
+        "booked_pct": 19.81,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 25942.01,
+        "custom_spend_suspected": true,
+        "unrecognised_blended_delta": 842.27,
+        "tw_new_customer_orders": 147,
+        "tw_ncpa_do_not_use": 176.47623144742735,
+        "tw_in_week_refund_ratio_artifact": 9.39539233392663
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-03-09",
+      "end": "2026-03-15",
+      "label": "Mar 9\u201315",
+      "age_weeks": 26,
+      "measured": {
+        "gross_bookings": 26433.62,
+        "units": 730,
+        "orders": 490,
+        "new_customers": 117,
+        "ad_spend": 24191.68,
+        "ad_spend_by_line": {
+          "meta_core": 10830.41,
+          "google": 13228.05,
+          "impact": 133.22
+        },
+        "refunds_booked": 7442.84
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 334.48,
+      "total_spend": 39133.99,
+      "asp_gross": 225.93,
+      "refund_actual": {
+        "booked_pct": 28.16,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 24960.97,
+        "custom_spend_suspected": true,
+        "unrecognised_blended_delta": 769.29,
+        "tw_new_customer_orders": 121,
+        "tw_ncpa_do_not_use": 206.28900898939136,
+        "tw_in_week_refund_ratio_artifact": 70.25077350266095
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-03-16",
+      "end": "2026-03-22",
+      "label": "Mar 16\u201322",
+      "age_weeks": 25,
+      "measured": {
+        "gross_bookings": 22523.46,
+        "units": 359,
+        "orders": 207,
+        "new_customers": 74,
+        "ad_spend": 8849.83,
+        "ad_spend_by_line": {
+          "meta_core": 4438.9,
+          "google": 4332.78,
+          "impact": 78.15
+        },
+        "refunds_booked": 3237.27
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 321.52,
+      "total_spend": 23792.14,
+      "asp_gross": 304.37,
+      "refund_actual": {
+        "booked_pct": 14.37,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 9785.77,
+        "custom_spend_suspected": true,
+        "unrecognised_blended_delta": 935.94,
+        "tw_new_customer_orders": 79,
+        "tw_ncpa_do_not_use": 123.87050612235466,
+        "tw_in_week_refund_ratio_artifact": 14.08594974558537
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-03-23",
+      "end": "2026-03-29",
+      "label": "Mar 23\u201329",
+      "age_weeks": 24,
+      "measured": {
+        "gross_bookings": 19758.12,
+        "units": 264,
+        "orders": 174,
+        "new_customers": 69,
+        "ad_spend": 9787.67,
+        "ad_spend_by_line": {
+          "meta_core": 4701.86,
+          "google": 4882.49,
+          "impact": 203.32
+        },
+        "refunds_booked": 5474.97
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 358.41,
+      "total_spend": 24729.98,
+      "asp_gross": 286.35,
+      "refund_actual": {
+        "booked_pct": 27.71,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 10908.62,
+        "custom_spend_suspected": true,
+        "unrecognised_blended_delta": 1120.95,
+        "tw_new_customer_orders": 62,
+        "tw_ncpa_do_not_use": 175.94542840555792,
+        "tw_in_week_refund_ratio_artifact": 83.57080459975732
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-03-30",
+      "end": "2026-04-05",
+      "label": "Mar 30\u2013Apr 5",
+      "age_weeks": 23,
+      "measured": {
+        "gross_bookings": 21191.94,
+        "units": 323,
+        "orders": 193,
+        "new_customers": 68,
+        "ad_spend": 9215.02,
+        "ad_spend_by_line": {
+          "meta_core": 5324.11,
+          "google": 3528.13,
+          "impact": 362.78
+        },
+        "refunds_booked": 5485.45
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 355.25,
+      "total_spend": 24157.33,
+      "asp_gross": 311.65,
+      "refund_actual": {
+        "booked_pct": 25.88,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 9780.24,
+        "custom_spend_suspected": true,
+        "unrecognised_blended_delta": 565.22,
+        "tw_new_customer_orders": 70,
+        "tw_ncpa_do_not_use": 139.71773768740573,
+        "tw_in_week_refund_ratio_artifact": 8.1737985359607
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-04-06",
+      "end": "2026-04-12",
+      "label": "Apr 6\u201312",
+      "age_weeks": 22,
+      "measured": {
+        "gross_bookings": 21436.8,
+        "units": 574,
+        "orders": 401,
+        "new_customers": 72,
+        "ad_spend": 8867.03,
+        "ad_spend_by_line": {
+          "meta_core": 6876.77,
+          "google": 1678.91,
+          "impact": 311.35
+        },
+        "refunds_booked": 5211.55
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 330.69,
+      "total_spend": 23809.34,
+      "asp_gross": 297.73,
+      "refund_actual": {
+        "booked_pct": 24.31,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 9165.11,
+        "custom_spend_suspected": true,
+        "unrecognised_blended_delta": 298.08,
+        "tw_new_customer_orders": 74,
+        "tw_ncpa_do_not_use": 123.85282481079166,
+        "tw_in_week_refund_ratio_artifact": 81.46483296442767
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-04-13",
+      "end": "2026-04-19",
+      "label": "Apr 13\u201319",
+      "age_weeks": 21,
+      "measured": {
+        "gross_bookings": 26963.43,
+        "units": 463,
+        "orders": 324,
+        "new_customers": 96,
+        "ad_spend": 10163.23,
+        "ad_spend_by_line": {
+          "meta_core": 8624.73,
+          "google": 1214.63,
+          "impact": 323.87
+        },
+        "refunds_booked": 5881.41
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 261.52,
+      "total_spend": 25105.54,
+      "asp_gross": 280.87,
+      "refund_actual": {
+        "booked_pct": 21.81,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 10509.96,
+        "custom_spend_suspected": true,
+        "unrecognised_blended_delta": 346.73,
+        "tw_new_customer_orders": 83,
+        "tw_ncpa_do_not_use": 126.62606182847037,
+        "tw_in_week_refund_ratio_artifact": 22.97981687464058
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-04-20",
+      "end": "2026-04-26",
+      "label": "Apr 20\u201326",
+      "age_weeks": 20,
+      "measured": {
+        "gross_bookings": 20764.88,
+        "units": 375,
+        "orders": 198,
+        "new_customers": 67,
+        "ad_spend": 17013.12,
+        "ad_spend_by_line": {
+          "meta_core": 14308.42,
+          "google": 2515.11,
+          "impact": 189.59
+        },
+        "refunds_booked": 5690.15
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 476.95,
+      "total_spend": 31955.43,
+      "asp_gross": 309.92,
+      "refund_actual": {
+        "booked_pct": 27.4,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 17372.26,
+        "custom_spend_suspected": true,
+        "unrecognised_blended_delta": 359.14,
+        "tw_new_customer_orders": 81,
+        "tw_ncpa_do_not_use": 214.4723717684823,
+        "tw_in_week_refund_ratio_artifact": 30.556897975381975
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "label": "Apr 27\u2013May 3",
+      "age_weeks": 19,
+      "measured": {
+        "gross_bookings": 17971.36,
+        "units": 266,
+        "orders": 196,
+        "new_customers": 71,
+        "ad_spend": 11061.04,
+        "ad_spend_by_line": {
+          "meta_core": 9896.51,
+          "google": 960.59,
+          "impact": 203.94
+        },
+        "refunds_booked": 4912.53
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 366.24,
+      "total_spend": 26003.35,
+      "asp_gross": 253.12,
+      "refund_actual": {
+        "booked_pct": 27.34,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 11401.5,
+        "custom_spend_suspected": true,
+        "unrecognised_blended_delta": 340.46,
+        "tw_new_customer_orders": 63,
+        "tw_ncpa_do_not_use": 180.97621582826926,
+        "tw_in_week_refund_ratio_artifact": 2.434898503178183
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "label": "May 4\u201310",
+      "age_weeks": 18,
+      "measured": {
+        "gross_bookings": 34345.94,
+        "units": 392,
+        "orders": 182,
+        "new_customers": 140,
+        "ad_spend": 17671.89,
+        "ad_spend_by_line": {
+          "meta_core": 15779.67,
+          "google": 1764.87,
+          "impact": 127.35
+        },
+        "refunds_booked": 7595.91
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 232.96,
+      "total_spend": 32614.2,
+      "asp_gross": 245.33,
+      "refund_actual": {
+        "booked_pct": 22.12,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 18590.32,
+        "custom_spend_suspected": true,
+        "unrecognised_blended_delta": 918.43,
+        "tw_new_customer_orders": 127,
+        "tw_ncpa_do_not_use": 146.3804599780912,
+        "tw_in_week_refund_ratio_artifact": 4.6857412725129715
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-05-11",
+      "end": "2026-05-17",
+      "label": "May 11\u201317",
+      "age_weeks": 17,
+      "measured": {
+        "gross_bookings": 36264.22,
+        "units": 185,
+        "orders": 174,
+        "new_customers": 150,
+        "ad_spend": 16118.8,
+        "ad_spend_by_line": {
+          "meta_core": 13687.98,
+          "google": 2154.27,
+          "impact": 276.55
+        },
+        "refunds_booked": 8201.61
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 207.07,
+      "total_spend": 31061.11,
+      "asp_gross": 241.76,
+      "refund_actual": {
+        "booked_pct": 22.62,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 16301.03,
+        "custom_spend_suspected": true,
+        "unrecognised_blended_delta": 182.23,
+        "tw_new_customer_orders": 157,
+        "tw_ncpa_do_not_use": 103.82818641737815,
+        "tw_in_week_refund_ratio_artifact": 1.2740880676279807
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-05-18",
+      "end": "2026-05-24",
+      "label": "May 18\u201324",
+      "age_weeks": 16,
+      "measured": {
+        "gross_bookings": 44233.26,
+        "units": 232,
+        "orders": 218,
+        "new_customers": 181,
+        "ad_spend": 19472.08,
+        "ad_spend_by_line": {
+          "meta_core": 16243.43,
+          "google": 2833.33,
+          "impact": 395.32
+        },
+        "refunds_booked": 10425.61
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 190.13,
+      "total_spend": 34414.39,
+      "asp_gross": 244.38,
+      "refund_actual": {
+        "booked_pct": 23.57,
+        "is_mature": true,
+        "pct_of_eventual_visible": 99.5,
+        "provenance": "measured"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 19472.08,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 180,
+        "tw_ncpa_do_not_use": 108.1782071884411,
+        "tw_in_week_refund_ratio_artifact": 9.057472313036072
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-05-25",
+      "end": "2026-05-31",
+      "label": "May 25\u201331",
+      "age_weeks": 15,
+      "measured": {
+        "gross_bookings": 41253.84,
+        "units": 219,
+        "orders": 211,
+        "new_customers": 163,
+        "ad_spend": 23255.6,
+        "ad_spend_by_line": {
+          "meta_core": 19603.64,
+          "google": 3347.99,
+          "impact": 303.97
+        },
+        "refunds_booked": 13148.41
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 234.34,
+      "total_spend": 38197.91,
+      "asp_gross": 253.09,
+      "refund_actual": {
+        "booked_pct": 31.87,
+        "is_mature": false,
+        "pct_of_eventual_visible": 99.2,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 23255.6,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 174,
+        "tw_ncpa_do_not_use": 133.6528539726853,
+        "tw_in_week_refund_ratio_artifact": 28.782341214550595
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "label": "Jun 1\u20137",
+      "age_weeks": 14,
+      "measured": {
+        "gross_bookings": 56588.0,
+        "units": 258,
+        "orders": 238,
+        "new_customers": 209,
+        "ad_spend": 29367.04,
+        "ad_spend_by_line": {
+          "meta_core": 25075.18,
+          "google": 3947.08,
+          "impact": 344.78
+        },
+        "refunds_booked": 15123.46
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 212.01,
+      "total_spend": 44309.35,
+      "asp_gross": 270.76,
+      "refund_actual": {
+        "booked_pct": 26.73,
+        "is_mature": false,
+        "pct_of_eventual_visible": 98.7,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 29367.04,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 189,
+        "tw_ncpa_do_not_use": 155.3811751051397,
+        "tw_in_week_refund_ratio_artifact": 10.185413586093642
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "label": "Jun 8\u201314",
+      "age_weeks": 13,
+      "measured": {
+        "gross_bookings": 39918.1,
+        "units": 183,
+        "orders": 177,
+        "new_customers": 153,
+        "ad_spend": 24583.01,
+        "ad_spend_by_line": {
+          "meta_core": 19755.04,
+          "google": 3963.14,
+          "impact": 864.83
+        },
+        "refunds_booked": 8659.54
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 258.34,
+      "total_spend": 39525.32,
+      "asp_gross": 260.9,
+      "refund_actual": {
+        "booked_pct": 21.69,
+        "is_mature": false,
+        "pct_of_eventual_visible": 97.6,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 24583.01,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 172,
+        "tw_ncpa_do_not_use": 142.92448203623036,
+        "tw_in_week_refund_ratio_artifact": 30.262200656419086
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-06-15",
+      "end": "2026-06-21",
+      "label": "Jun 15\u201321",
+      "age_weeks": 12,
+      "measured": {
+        "gross_bookings": 51559.45,
+        "units": 355,
+        "orders": 251,
+        "new_customers": 227,
+        "ad_spend": 20228.86,
+        "ad_spend_by_line": {
+          "meta_core": 16015.85,
+          "google": 3873.37,
+          "impact": 339.64
+        },
+        "refunds_booked": 10141.31
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 154.94,
+      "total_spend": 35171.17,
+      "asp_gross": 227.13,
+      "refund_actual": {
+        "booked_pct": 19.67,
+        "is_mature": false,
+        "pct_of_eventual_visible": 97.3,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 20228.86,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 207,
+        "tw_ncpa_do_not_use": 97.72395521258386,
+        "tw_in_week_refund_ratio_artifact": 21.71538151787228
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-06-22",
+      "end": "2026-06-28",
+      "label": "Jun 22\u201328",
+      "age_weeks": 11,
+      "measured": {
+        "gross_bookings": 38715.18,
+        "units": 192,
+        "orders": 182,
+        "new_customers": 164,
+        "ad_spend": 19331.15,
+        "ad_spend_by_line": {
+          "meta_core": 15921.35,
+          "google": 3225.5,
+          "impact": 184.3
+        },
+        "refunds_booked": 8518.12
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 208.98,
+      "total_spend": 34273.46,
+      "asp_gross": 236.07,
+      "refund_actual": {
+        "booked_pct": 22.0,
+        "is_mature": false,
+        "pct_of_eventual_visible": 96.3,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 19331.15,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 184,
+        "tw_ncpa_do_not_use": 105.06059667711024,
+        "tw_in_week_refund_ratio_artifact": 6.439500770054574
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-06-29",
+      "end": "2026-07-05",
+      "label": "Jun 29\u2013Jul 5",
+      "age_weeks": 10,
+      "measured": {
+        "gross_bookings": 36759.6,
+        "units": 179,
+        "orders": 169,
+        "new_customers": 161,
+        "ad_spend": 19735.56,
+        "ad_spend_by_line": {
+          "meta_core": 16794.26,
+          "google": 2622.01,
+          "impact": 319.29
+        },
+        "refunds_booked": 9036.63
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 215.39,
+      "total_spend": 34677.87,
+      "asp_gross": 228.32,
+      "refund_actual": {
+        "booked_pct": 24.58,
+        "is_mature": false,
+        "pct_of_eventual_visible": 94.7,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 19735.56,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 150,
+        "tw_ncpa_do_not_use": 131.5703836448615,
+        "tw_in_week_refund_ratio_artifact": 30.15991555971291
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-07-06",
+      "end": "2026-07-12",
+      "label": "Jul 6\u201312",
+      "age_weeks": 9,
+      "measured": {
+        "gross_bookings": 37261.45,
+        "units": 200,
+        "orders": 192,
+        "new_customers": 171,
+        "ad_spend": 20045.45,
+        "ad_spend_by_line": {
+          "meta_core": 16510.14,
+          "google": 3118.29,
+          "impact": 417.02
+        },
+        "refunds_booked": 8727.51
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 204.61,
+      "total_spend": 34987.76,
+      "asp_gross": 217.9,
+      "refund_actual": {
+        "booked_pct": 23.42,
+        "is_mature": false,
+        "pct_of_eventual_visible": 90.9,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 20045.45,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 183,
+        "tw_ncpa_do_not_use": 109.5379574876584,
+        "tw_in_week_refund_ratio_artifact": 29.945523239822766
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-07-13",
+      "end": "2026-07-19",
+      "label": "Jul 13\u201319",
+      "age_weeks": 8,
+      "measured": {
+        "gross_bookings": 34626.02,
+        "units": 180,
+        "orders": 173,
+        "new_customers": 158,
+        "ad_spend": 20140.48,
+        "ad_spend_by_line": {
+          "meta_core": 16502.25,
+          "google": 3190.48,
+          "impact": 447.75
+        },
+        "refunds_booked": 9063.34
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 222.04,
+      "total_spend": 35082.79,
+      "asp_gross": 219.15,
+      "refund_actual": {
+        "booked_pct": 26.17,
+        "is_mature": false,
+        "pct_of_eventual_visible": 87.6,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 20140.48,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 156,
+        "tw_ncpa_do_not_use": 129.1056585040015,
+        "tw_in_week_refund_ratio_artifact": 8.743720314776255
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-07-20",
+      "end": "2026-07-26",
+      "label": "Jul 20\u201326",
+      "age_weeks": 7,
+      "measured": {
+        "gross_bookings": 35307.93,
+        "units": 154,
+        "orders": 152,
+        "new_customers": 135,
+        "ad_spend": 17096.63,
+        "ad_spend_by_line": {
+          "meta_core": 13806.79,
+          "google": 2968.68,
+          "impact": 321.16
+        },
+        "refunds_booked": 5557.53
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 237.33,
+      "total_spend": 32038.94,
+      "asp_gross": 261.54,
+      "refund_actual": {
+        "booked_pct": 15.74,
+        "is_mature": false,
+        "pct_of_eventual_visible": 77.5,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 17096.63,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 140,
+        "tw_ncpa_do_not_use": 122.11879635406657,
+        "tw_in_week_refund_ratio_artifact": 26.93593001987527
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-07-27",
+      "end": "2026-08-02",
+      "label": "Jul 27\u2013Aug 2",
+      "age_weeks": 6,
+      "measured": {
+        "gross_bookings": 36129.65,
+        "units": 252,
+        "orders": 152,
+        "new_customers": 140,
+        "ad_spend": 17069.14,
+        "ad_spend_by_line": {
+          "meta_core": 13769.7,
+          "google": 2961.11,
+          "impact": 338.33
+        },
+        "refunds_booked": 4835.68
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 228.65,
+      "total_spend": 32011.45,
+      "asp_gross": 258.07,
+      "refund_actual": {
+        "booked_pct": 13.38,
+        "is_mature": false,
+        "pct_of_eventual_visible": 65.4,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 17069.14,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 141,
+        "tw_ncpa_do_not_use": 121.05770729084546,
+        "tw_in_week_refund_ratio_artifact": 30.334582262653335
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-08-03",
+      "end": "2026-08-09",
+      "label": "Aug 3\u20139",
+      "age_weeks": 5,
+      "measured": {
+        "gross_bookings": 32748.3,
+        "units": 145,
+        "orders": 143,
+        "new_customers": 116,
+        "ad_spend": 16306.71,
+        "ad_spend_by_line": {
+          "meta_core": 12888.55,
+          "google": 3148.32,
+          "impact": 269.84
+        },
+        "refunds_booked": 5278.67
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 269.39,
+      "total_spend": 31249.02,
+      "asp_gross": 282.31,
+      "refund_actual": {
+        "booked_pct": 16.12,
+        "is_mature": false,
+        "pct_of_eventual_visible": 52.6,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 16306.71,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 120,
+        "tw_ncpa_do_not_use": 135.8892195438811,
+        "tw_in_week_refund_ratio_artifact": 49.67817374326846
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-08-10",
+      "end": "2026-08-16",
+      "label": "Aug 10\u201316",
+      "age_weeks": 4,
+      "measured": {
+        "gross_bookings": 34918.28,
+        "units": 158,
+        "orders": 152,
+        "new_customers": 124,
+        "ad_spend": 16244.78,
+        "ad_spend_by_line": {
+          "meta_core": 13007.47,
+          "google": 3065.69,
+          "impact": 171.62
+        },
+        "refunds_booked": 2311.03
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 251.51,
+      "total_spend": 31187.09,
+      "asp_gross": 281.6,
+      "refund_actual": {
+        "booked_pct": 6.62,
+        "is_mature": false,
+        "pct_of_eventual_visible": 34.9,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 16244.78,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 122,
+        "tw_ncpa_do_not_use": 133.15392496067358,
+        "tw_in_week_refund_ratio_artifact": 48.72084926131717
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-08-17",
+      "end": "2026-08-23",
+      "label": "Aug 17\u201323",
+      "age_weeks": 3,
+      "measured": {
+        "gross_bookings": 35161.25,
+        "units": 153,
+        "orders": 147,
+        "new_customers": 125,
+        "ad_spend": 15872.12,
+        "ad_spend_by_line": {
+          "meta_core": 12497.69,
+          "google": 3047.15,
+          "impact": 327.28
+        },
+        "refunds_booked": 1805.1
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 246.52,
+      "total_spend": 30814.43,
+      "asp_gross": 281.29,
+      "refund_actual": {
+        "booked_pct": 5.13,
+        "is_mature": false,
+        "pct_of_eventual_visible": 19.3,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 15872.12,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 116,
+        "tw_ncpa_do_not_use": 136.8285883034515,
+        "tw_in_week_refund_ratio_artifact": 41.80600875991914
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-08-24",
+      "end": "2026-08-30",
+      "label": "Aug 24\u201330",
+      "age_weeks": 2,
+      "measured": {
+        "gross_bookings": 25653.04,
+        "units": 106,
+        "orders": 105,
+        "new_customers": 93,
+        "ad_spend": 14594.72,
+        "ad_spend_by_line": {
+          "meta_core": 11668.11,
+          "google": 2806.56,
+          "impact": 120.05
+        },
+        "refunds_booked": 1868.75
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 317.6,
+      "total_spend": 29537.03,
+      "asp_gross": 275.84,
+      "refund_actual": {
+        "booked_pct": 7.28,
+        "is_mature": false,
+        "pct_of_eventual_visible": 9.9,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 14594.72,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 94,
+        "tw_ncpa_do_not_use": 155.26296832301514,
+        "tw_in_week_refund_ratio_artifact": 18.724573294453318
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-08-31",
+      "end": "2026-09-06",
+      "label": "Aug 31\u2013Sep 6",
+      "age_weeks": 1,
+      "measured": {
+        "gross_bookings": 28235.36,
+        "units": 121,
+        "orders": 118,
+        "new_customers": 97,
+        "ad_spend": 15431.33,
+        "ad_spend_by_line": {
+          "meta_core": 11806.64,
+          "google": 3028.35,
+          "impact": 596.34
+        },
+        "refunds_booked": 1764.1
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 313.13,
+      "total_spend": 30373.64,
+      "asp_gross": 291.09,
+      "refund_actual": {
+        "booked_pct": 6.25,
+        "is_mature": false,
+        "pct_of_eventual_visible": 5.0,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 15431.33,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 101,
+        "tw_ncpa_do_not_use": 152.78540913747753,
+        "tw_in_week_refund_ratio_artifact": 58.230165855502534
+      }
+    },
+    {
+      "period_type": "week",
+      "start": "2026-09-07",
+      "end": "2026-09-13",
+      "label": "Sep 7\u201313",
+      "age_weeks": 0,
+      "measured": {
+        "gross_bookings": 27410.49,
+        "units": 117,
+        "orders": 114,
+        "new_customers": 96,
+        "ad_spend": 11412.18,
+        "ad_spend_by_line": {
+          "meta_core": 8127.23,
+          "google": 2600.57,
+          "impact": 684.38
+        },
+        "refunds_booked": 254.15
+      },
+      "accrued": {
+        "retainers": 12634.62,
+        "variable": 2307.69,
+        "method": "x12_over_52"
+      },
+      "assumed": {
+        "ltv_consumables_total": 159.6,
+        "consumables_per_month": 19,
+        "active_months": 12,
+        "attach_rate_pct": 70,
+        "repeat_hardware": 0,
+        "_provenance": "assumed",
+        "_warning": "Every input invented. Never present as measurement."
+      },
+      "cac": 274.53,
+      "total_spend": 26354.49,
+      "asp_gross": 285.53,
+      "refund_actual": {
+        "booked_pct": 0.93,
+        "is_mature": false,
+        "pct_of_eventual_visible": 2.1,
+        "provenance": "incomplete"
+      },
+      "refund_bases_available": {
+        "target": {
+          "label": "Target",
+          "rate_pct": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate_pct": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate_pct": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate_pct": 23.94,
+          "provenance": "measured"
+        }
+      },
+      "triple_whale_cross_check": {
+        "blendedAds": 11412.18,
+        "custom_spend_suspected": false,
+        "unrecognised_blended_delta": 0.0,
+        "tw_new_customer_orders": 105,
+        "tw_ncpa_do_not_use": 108.6874431148881,
+        "tw_in_week_refund_ratio_artifact": 13.623454941758524
+      }
+    }
+  ],
+  "refund_curve": {
+    "final_rate_pct": 23.94,
+    "cohorts": 21,
+    "gross": 576338.3,
+    "range": [
+      "2026-01-05",
+      "2026-05-25"
+    ],
+    "cum_pct_of_gross": [
+      0.513,
+      1.189,
+      2.378,
+      4.62,
+      8.349,
+      12.586,
+      15.663,
+      18.56,
+      20.965,
+      21.766,
+      22.669,
+      23.049,
+      23.293,
+      23.367,
+      23.633,
+      23.739,
+      23.827
+    ],
+    "pct_of_eventual_visible": [
+      2.1,
+      5.0,
+      9.9,
+      19.3,
+      34.9,
+      52.6,
+      65.4,
+      77.5,
+      87.6,
+      90.9,
+      94.7,
+      96.3,
+      97.3,
+      97.6,
+      98.7,
+      99.2,
+      99.5
+    ],
+    "maturity_weeks": 16,
+    "provenance": "measured",
+    "method": "Refunds matched to their order's acquisition week; 21 cohorts aged >=16w from 2026-01-01 onward."
+  },
+  "config": {
+    "_comment": "Editable cost inputs and parameters. In Phase 3 this is the file the Action reads (mirrored from the shared Sheet). Every cost line carries a provenance kind: 'ad' = measured from Triple Whale, plan figure here is budget only; 'retainer' = monthly, accrued into weeks; 'variable' = lumpy, set per week.",
+    "accrual": {
+      "method": "x12_over_52",
+      "note": "monthly x 12/52. Reproduces Clayton's reported $276 for wk of Aug 3. Alternatives: calendar_days (7/30.44), divide_4 (/4.0)."
+    },
+    "cost_lines": [
+      {
+        "id": "meta_core",
+        "name": "Meta \u2014 proven core",
+        "kind": "ad",
+        "monthly": 72000,
+        "tw_metric": "fb_ads_spend",
+        "effective_from": null,
+        "effective_to": null
+      },
+      {
+        "id": "meta_test",
+        "name": "Meta \u2014 testing",
+        "kind": "ad",
+        "monthly": 0,
+        "tw_metric": null,
+        "effective_from": null,
+        "effective_to": null
+      },
+      {
+        "id": "google",
+        "name": "Google \u2014 brand + PMax + non-brand",
+        "kind": "ad",
+        "monthly": 14000,
+        "tw_metric": "ga_adCost",
+        "effective_from": null,
+        "effective_to": null
+      },
+      {
+        "id": "impact",
+        "name": "Impact (affiliate platform)",
+        "kind": "ad",
+        "monthly": 0,
+        "tw_metric": "impactSpend",
+        "effective_from": null,
+        "effective_to": null
+      },
+      {
+        "id": "liquid_lemon",
+        "name": "Liquid Lemon / BLCKHAT",
+        "kind": "retainer",
+        "monthly": 15000,
+        "effective_from": null,
+        "effective_to": null
+      },
+      {
+        "id": "jt_pr",
+        "name": "Jack Taylor \u2014 PR",
+        "kind": "retainer",
+        "monthly": 15000,
+        "effective_from": null,
+        "effective_to": null
+      },
+      {
+        "id": "jt_affiliate",
+        "name": "Jack Taylor \u2014 Affiliate",
+        "kind": "retainer",
+        "monthly": 5000,
+        "effective_from": null,
+        "effective_to": null
+      },
+      {
+        "id": "toast",
+        "name": "Toast",
+        "kind": "retainer",
+        "monthly": 10000,
+        "effective_from": null,
+        "effective_to": null
+      },
+      {
+        "id": "airops",
+        "name": "AirOps \u2014 SEO / AIO",
+        "kind": "retainer",
+        "monthly": 9750,
+        "effective_from": null,
+        "effective_to": null
+      },
+      {
+        "id": "ugc",
+        "name": "UGC / creator content (Toast)",
+        "kind": "retainer",
+        "monthly": 0,
+        "effective_from": null,
+        "effective_to": null
+      },
+      {
+        "id": "experiments",
+        "name": "Expensive experiments (podcasts, influencers)",
+        "kind": "variable",
+        "monthly": 10000,
+        "effective_from": null,
+        "effective_to": null
+      }
+    ],
+    "refund_bases": {
+      "default": "planning",
+      "options": {
+        "target": {
+          "label": "Target",
+          "rate": 10.0,
+          "provenance": "assumed"
+        },
+        "planning": {
+          "label": "Planning",
+          "rate": 20.0,
+          "provenance": "assumed"
+        },
+        "bad": {
+          "label": "Bad scenario",
+          "rate": 30.0,
+          "provenance": "assumed"
+        },
+        "measured": {
+          "label": "Measured",
+          "rate": null,
+          "provenance": "measured",
+          "note": "computed from 2026 cohort maturation"
+        }
+      }
+    },
+    "ltv_assumptions": {
+      "consumables_per_month": 19,
+      "active_months": 12,
+      "attach_rate_pct": 70,
+      "repeat_hardware": 0,
+      "_provenance": "assumed",
+      "_warning": "Every input invented. Never present as measurement."
+    },
+    "historical_cac_constants": {
+      "_comment": "DECISION 2026-08-18: sheet denominators frozen as historical constants; Shopify used going forward. Discontinuity is intentional and must be labeled.",
+      "basis": "2026 Marketing Budget spreadsheet",
+      "months": [
+        {
+          "month": "2026-01",
+          "spend": 53846,
+          "new_customers": 107,
+          "cac": 503.23
+        },
+        {
+          "month": "2026-02",
+          "spend": 114255,
+          "new_customers": 616,
+          "cac": 185.48
+        },
+        {
+          "month": "2026-03",
+          "spend": 196475,
+          "new_customers": 389,
+          "cac": 505.08
+        },
+        {
+          "month": "2026-04",
+          "spend": 139989,
+          "new_customers": 306,
+          "cac": 457.48
+        },
+        {
+          "month": "2026-05",
+          "spend": 153561,
+          "new_customers": 650,
+          "cac": 236.25
+        }
+      ],
+      "adjusted": {
+        "month": "2026-05",
+        "exclude": 4000,
+        "reason": "non-acquisition vendors (data analytics tools)",
+        "cac": 230.09
+      }
+    },
+    "notes_to_resolve": [
+      "Superfiliate ($599/mo), Impact platform fee ($20/mo) and social media platform ($200/mo) appear in the 2026 Budget sheet but not in the current spend table. $819/mo unaccounted.",
+      "No TikTok spend as of 2026-08-18 (confirmed by Caitlin). Toast-TikTok retainer folded into the single $10,000 Toast line."
+    ],
+    "cost_table_effective_from": "2026-07-01",
+    "_cost_table_effective_from_note": "The date this cost table took effect. NEEDS CONFIRMATION from Caitlin. Cost lines change over time \u2014 the earlier budget-sheet structure totalled $67,069/mo of retainers with Toast split across four lines, versus $54,750 now. Weeks before this date are computed on a cost basis that was not actually in force, so their CAC is approximate and the dashboard says so. Per-line effective_from/effective_to is the proper fix; the schema honours those fields if present.",
+    "cogs": {
+      "_comment": "Out of scope this iteration by decision. Room reserved so contribution-margin/CAC is an addition, not a migration.",
+      "per_unit": null,
+      "provenance": "assumed"
+    }
+  },
+  "health": {
+    "sources": {
+      "shopify": {
+        "ok": 1,
+        "orders": 6837
+      },
+      "triple_whale": {
+        "ok": 39,
+        "fail": 0
+      }
+    },
+    "generated_at": "2026-09-14"
+  },
+  "shopify_monthly_new_customers": {
+    "2025-12": 88,
+    "2026-01": 161,
+    "2026-02": 648,
+    "2026-03": 441,
+    "2026-04": 319,
+    "2026-05": 672,
+    "2026-06": 784,
+    "2026-07": 698,
+    "2026-08": 509
+  }
+}
