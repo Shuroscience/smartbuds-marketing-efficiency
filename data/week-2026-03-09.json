@@ -37,7 +37,7 @@
   "refund_actual": {
     "booked_pct": 28.16,
     "is_mature": true,
-    "pct_of_eventual_visible": 99.7,
+    "pct_of_eventual_visible": 99.5,
     "provenance": "measured"
   },
   "refund_bases_available": {
@@ -58,7 +58,7 @@
     },
     "measured": {
       "label": "Measured",
-      "rate_pct": 23.87,
+      "rate_pct": 23.94,
       "provenance": "measured"
     }
   },
@@ -68,6 +68,6 @@
     "unrecognised_blended_delta": 769.29,
     "tw_new_customer_orders": 121,
     "tw_ncpa_do_not_use": 206.28900898939136,
-    "tw_in_week_refund_ratio_artifact": 70.25077350266095
+    "tw_in_week_refund_ratio_artifact": 70.25077350266096
   }
 }

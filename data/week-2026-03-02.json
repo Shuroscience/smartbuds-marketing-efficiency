@@ -37,7 +37,7 @@
   "refund_actual": {
     "booked_pct": 19.81,
     "is_mature": true,
-    "pct_of_eventual_visible": 99.7,
+    "pct_of_eventual_visible": 99.5,
     "provenance": "measured"
   },
   "refund_bases_available": {
@@ -58,7 +58,7 @@
     },
     "measured": {
       "label": "Measured",
-      "rate_pct": 23.87,
+      "rate_pct": 23.94,
       "provenance": "measured"
     }
   },
