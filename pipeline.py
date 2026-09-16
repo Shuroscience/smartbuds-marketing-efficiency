@@ -346,8 +346,12 @@ def ranges(kind, n):
 def main():
     global cost_lines
     os.makedirs(DATA, exist_ok=True)
-    nweeks  = int(os.environ.get("WEEKS", "30"))
-    nmonths = int(os.environ.get("MONTHS", "9"))
+    # Only fetch recent weeks fresh; load older ones from cache to avoid timeouts
+    refresh_weeks = int(os.environ.get("REFRESH_WEEKS", "4"))  # last N weeks from Triple Whale
+    total_weeks   = int(os.environ.get("WEEKS", "30"))         # total historical weeks to report
+    refresh_months= int(os.environ.get("REFRESH_MONTHS", "2"))
+    total_months  = int(os.environ.get("MONTHS", "9"))
+
     print("Loading cost lines...", file=sys.stderr)
     cost_lines = load_cost_lines()
     print("Loading Shopify orders...", file=sys.stderr)
@@ -356,13 +360,32 @@ def main():
     json.dump(curve, open(os.path.join(DATA, "refund-curve.json"), "w"), indent=2)
     print(f"  refund curve: {curve['final_rate_pct']}% over {curve['cohorts']} cohorts", file=sys.stderr)
 
+    # Try to load previous data for old periods (saves time, avoids timeouts)
+    prev_periods = {}
+    try:
+        prev_data = json.load(open(os.path.join(DATA, "latest.json")))
+        prev_periods = prev_data.get("periods", {})
+    except:
+        pass
+
     health = {"sources": {"shopify": {"ok": 1, "orders": len(book.rows)}}, "generated_at": TODAY.isoformat()}
     periods = {}
-    for kind, n in (("week", nweeks), ("month", nmonths)):
+    for kind, total_n in (("week", total_weeks), ("month", total_months)):
+        refresh_n = refresh_weeks if kind == "week" else refresh_months
+        all_ranges = list(ranges(kind, total_n))
         rows = []
-        for i, (s, e) in enumerate(ranges(kind, n)):
+
+        # Load old periods from previous run (skip Triple Whale)
+        if kind in prev_periods:
+            old_cutoff = len(all_ranges) - refresh_n
+            for prev_rec in prev_periods[kind][:old_cutoff]:
+                rows.append(prev_rec)
+                print(f"  {kind} {prev_rec['start']} (cached)", file=sys.stderr)
+
+        # Fetch fresh data only for recent periods
+        for i, (s, e) in enumerate(all_ranges[-refresh_n:]):
             try:
-                spend = tw_period(kind, s, e, fresh=(i < 2))
+                spend = tw_period(kind, s, e, fresh=True)
                 health["sources"].setdefault("triple_whale", {"ok": 0, "fail": 0})["ok"] += 1
             except Exception as ex:
                 print(f"  !! Triple Whale failed {kind} {s}: {ex}", file=sys.stderr)
@@ -375,7 +398,7 @@ def main():
             print(f"  {kind} {s} CAC {rec['cac']} nc={rec['measured']['new_customers']}"
                   f" mature={rec['refund_actual']['is_mature']}", file=sys.stderr)
         rows.sort(key=lambda r: r["start"])
-        periods[kind] = rows
+        periods[kind] = rows[-total_n:]  # keep only the most recent N
 
     monthly_nc = {}
     for r in periods.get("month", []):

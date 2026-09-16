@@ -32,8 +32,12 @@ jobs:
           SHOPIFY_TOKEN:       ${{ secrets.SHOPIFY_TOKEN }}
           # Cost source: use committed config.json (Google Sheet synced manually)
           COST_SOURCE:         config
-          REFRESH_ORDERS: "1"
+          REFRESH_ORDERS: "0"
+          # Only fetch recent weeks from Triple Whale to avoid timeouts
+          # Older weeks are loaded from the previous latest.json
+          REFRESH_WEEKS: "4"
           WEEKS: "30"
+          REFRESH_MONTHS: "2"
           MONTHS: "9"
           PYTHONUNBUFFERED: "1"
         run: python3 pipeline.py
