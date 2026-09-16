@@ -2,7 +2,7 @@ name: Update marketing efficiency
 
 on:
   schedule:
-    - cron: '0 9 * * *'      # daily 09:00 UTC
+    - cron: '0 17 * * 4'     # Thursday 17:00 UTC (noon-ish ET, accounting for DST)
   workflow_dispatch:
   push:
     branches: [main]
